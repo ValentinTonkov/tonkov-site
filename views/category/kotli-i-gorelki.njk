@@ -1,0 +1,67 @@
+{# Pellet boilers & burners: plain header (no hero image), grouped grid, FAQ  →  Yii2: views/category/view.php variant #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = category.seoTitle %}
+{% set metaDescription = category.seoDescription %}
+{% set crumbs = [{ label: category.name }] %}
+
+{% block content %}
+<div class="container">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-2">{{ category.title }}</h1>
+    <p class="lead">{{ category.intro }}</p>
+  </header>
+
+  <section class="catalog pt-0" aria-label="Продукти">
+    <ul class="pills" aria-label="Групи">
+      {% for g in category.groups %}<li><a href="#grupa-{{ loop.index }}">{{ g }}</a></li>{% endfor %}
+      <li><a href="#vaprosi">Въпроси и отговори</a></li>
+    </ul>
+
+    {% for g in category.groups %}
+    <div class="catalog__group" id="grupa-{{ loop.index }}">
+      <div class="catalog__head"><h2>{{ g }}</h2></div>
+      <div class="product-grid">
+        {% for product in category.products %}{% if product.group == g %}
+        {% include "partials/_product-card.njk" %}
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</div>
+
+<section class="section-paper section-paper-2" id="vaprosi">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-4">
+        <p class="eyebrow">Въпроси и отговори</p>
+        <h2 class="display-3">Питат ни често.</h2>
+        <p class="lead">Отговаряме направо — и с удоволствие ще ви покажем всичко на място.</p>
+      </div>
+      <div class="col-lg-7 offset-lg-1">
+        {% for group in faq.groups %}
+        {% set gi = loop.index %}
+        <h3 class="h4 {% if not loop.first %}mt-5{% endif %} mb-3">{{ group.title }}</h3>
+        <div class="accordion" id="faq-{{ gi }}">
+          {% for item in group.items %}
+          <div class="accordion-item">
+            <h4 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-{{ gi }}-{{ loop.index }}" aria-expanded="false" aria-controls="faq-{{ gi }}-{{ loop.index }}">{{ item.q }}</button>
+            </h4>
+            <div id="faq-{{ gi }}-{{ loop.index }}" class="accordion-collapse collapse" data-bs-parent="#faq-{{ gi }}">
+              <div class="accordion-body">{{ item.a }}</div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set ctaTitle = 'Елате да я видите как гори.' %}
+{% set ctaText = 'След предварителна уговорка запалваме горелката с донесеното от вас гориво, настройваме я и я оставяме да работи.' %}
+{% include "partials/_cta.njk" %}
+{% endblock %}

@@ -1,0 +1,71 @@
+{# Wood landing: hero + sub-category sections  →  Yii2: views/category/view.php (layout variant for a parent category) #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = category.seoTitle %}
+{% set metaDescription = category.seoDescription %}
+{% set metaImage = 'img/site/wood_hero.jpg' %}
+{% set crumbs = [{ label: category.name }] %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="page-hero__media">{{ picture(category.image, 'Дъбово буре със стойка за чаши в дървена беседка', { sizes: '100vw', eager: true, position: category.position }) }}</div>
+  <div class="page-hero__content container">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-1">{{ category.title }}</h1>
+    <p class="lead">{{ category.intro }}</p>
+    <div class="page-hero__actions">
+      <a class="btn btn-primary btn-lg" href="#katalog">Към каталога <i class="bi bi-arrow-down" aria-hidden="true"></i></a>
+      <a class="btn btn-outline-light btn-lg" href="/gallery.html">Уникати и поръчки</a>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <section class="catalog" id="katalog" aria-label="Каталог">
+    <ul class="pills" aria-label="Категории">
+      <li><a href="{{ category.url }}" class="active" aria-current="page">Всички <small>{{ category.products | length }}</small></a></li>
+      {% for c in category.children %}
+      <li><a href="{{ c.url }}">{{ c.name }} <small>{{ c.products | length }}</small></a></li>
+      {% endfor %}
+    </ul>
+
+    {% for c in category.children %}
+    <div class="catalog__group" id="{{ c.slug }}">
+      <div class="catalog__head">
+        <div>
+          <h2><a href="{{ c.url }}" class="text-decoration-none">{{ c.name }}</a></h2>
+          <p>{{ c.intro }}</p>
+        </div>
+        {% if c.products | length > 8 %}<a class="catalog__more" href="{{ c.url }}">Всички {{ c.products | length }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>{% endif %}
+      </div>
+      <div class="product-grid">
+        {% for product in c.products.slice(0, 8) %}
+        {% include "partials/_product-card.njk" %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</div>
+
+<section class="section-night">
+  <div class="container">
+    <div class="split">
+      <div class="split__media split__media--wide reveal">{{ picture('working_wood', 'Ръчно шлайфане на резбовано дъбово плато', { sizes: '(min-width: 992px) 50vw, 100vw' }) }}</div>
+      <div>
+        <p class="eyebrow reveal">Как го правим</p>
+        <h2 class="display-3 reveal">Фрезата изрязва формата. Ръката я довършва.</h2>
+        <p class="lead reveal">Буретата правим по класическата бъчварска технология — от радиално нарязан, естествено сушен дъб, без силикони и уплътнения. Останалите изделия изрязваме на CNC фреза в 2D и 3D, а шлайфането, байцването и проверката са на ръка.</p>
+        <ul class="feature-list mt-4 reveal">
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Дъб, орех, бук, чам и ясен</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Гравюра на надпис, мотив или ваша снимка</li>
+          <li><i class="bi bi-check2" aria-hidden="true"></i> Малки серии и единични изделия по поръчка</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set ctaTitle = 'Имате идея? Нека я направим.' %}
+{% set ctaText = 'Размер, надпис, мотив или съвсем ново изделие — обадете се или ни пишете и ще измислим как да стане.' %}
+{% include "partials/_cta.njk" %}
+{% endblock %}

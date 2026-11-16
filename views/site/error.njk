@@ -1,0 +1,17 @@
+{# Error page (404)  →  Yii2: views/site/error.php #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Страницата не е намерена' %}
+
+{% block content %}
+<div class="container error-page">
+  <div>
+    <p class="error-page__code" aria-hidden="true">404</p>
+    <h1 class="display-3 mt-4">Тази страница я няма.</h1>
+    <p class="lead mx-auto mb-4">Може адресът да се е променил при обединяването на сайтовете ни. Опитайте от началото.</p>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <a class="btn btn-dark btn-lg" href="/">Към началото</a>
+      <a class="btn btn-outline-dark btn-lg" href="/contact.html">Контакти</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

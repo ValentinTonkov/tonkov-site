@@ -1,0 +1,124 @@
+{# Autoclave landing  →  Yii2: views/category/view.php variant (or a static view of SiteController) #}
+{% extends "layouts/main.njk" %}
+{% set product = category.products[0] %}
+{% set metaTitle = category.seoTitle %}
+{% set metaDescription = category.seoDescription %}
+{% set metaImage = 'img/site/autoclave_hero.jpg' %}
+{% set crumbs = [{ label: category.name }] %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="page-hero__media">{{ picture(category.image, 'Автоклав с контролер и манометър, заобиколен от буркани с готови консерви', { sizes: '100vw', eager: true, position: category.position }) }}</div>
+  <div class="page-hero__content container">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-1">{{ category.title }}</h1>
+    <p class="lead">{{ category.intro }}</p>
+    <div class="page-hero__actions">
+      <p class="page-hero__price mb-0"><small>Цена</small>{{ priceLabel(product) }}</p>
+      <a class="btn btn-primary btn-lg" href="{{ product.url }}">Към автоклава <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      <a class="btn btn-outline-light btn-lg" href="/autoclave/recipes.html">Рецепти</a>
+    </div>
+  </div>
+</section>
+
+{# what it does #}
+<section class="section-paper">
+  <div class="container">
+    <div class="split">
+      <div>
+        <p class="eyebrow reveal">Какво представлява</p>
+        <h2 class="display-3 reveal">Нагласяте градусите и минутите. Останалото е негова работа.</h2>
+        <div class="prose reveal">{{ product.description | md }}</div>
+        <div class="d-flex flex-wrap gap-2 mt-4 reveal">
+          <a class="btn btn-dark btn-lg" href="{{ product.url }}">Виж продукта <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          <a class="btn btn-outline-dark btn-lg" href="/autoclave/guide.html">Работа с автоклава</a>
+        </div>
+      </div>
+      <div>
+        <ul class="feature-list reveal">
+          {% for f in product.features %}<li><i class="bi bi-check2" aria-hidden="true"></i> {{ f }}</li>{% endfor %}
+        </ul>
+        {% if product.images[3] %}
+        <div class="split__media split__media--wide mt-4 reveal">
+          <img src="/{{ product.images[3].src }}" alt="{{ product.images[3].alt }}" width="{{ product.images[3].w }}" height="{{ product.images[3].h }}" loading="lazy" decoding="async">
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{# how a cycle runs #}
+<section class="section-night">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Как протича едно зареждане</p>
+        <h2 class="display-3 reveal">Четири стъпки от суровия продукт до готовата консерва.</h2>
+      </div>
+      <div>
+        <p class="lead reveal">Пълното ръководство — с всички стъпки, снимки и правила за безопасност — е на отделна страница.</p>
+        <a class="btn btn-outline-light btn-lg reveal" href="/autoclave/guide.html">Работа с автоклава</a>
+      </div>
+    </div>
+    <ol class="steps">
+      <li class="reveal"><h3>Заредете</h3><p>Налейте вода до под подложката, наредете бурканите и затегнете капака.</p></li>
+      <li class="reveal"><h3>Задайте режима</h3><p>Изберете температура и време според рецептата и натиснете СТАРТ.</p></li>
+      <li class="reveal"><h3>Затворете крана</h3><p>При 97 °C контролерът ви подсеща да затворите крана. Оттам нататък работи сам.</p></li>
+      <li class="reveal"><h3>Оставете да изстине</h3><p>След „Готово!“ изчакайте температурата да падне под 60 °C и отворете.</p></li>
+    </ol>
+
+    <div class="video-grid mt-5 pt-lg-4">
+      {% for video in product.videos.slice(0, 3) %}
+      <div class="reveal">{% include "partials/_video.njk" %}</div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# map #}
+<section class="map-section section-paper">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-5">
+        <p class="eyebrow reveal">Къде работят</p>
+        <h2 class="display-3 reveal">{{ site.home.map.title }}</h2>
+        <p class="lead reveal">{{ site.home.map.text }}</p>
+      </div>
+      <div class="col-lg-7">
+        <figure class="map-figure reveal">
+          {{ picture('avtoklavi_karta_prozrachna', 'Карта на България с разпределението на автоклавите по населени места', { sizes: '(min-width: 992px) 58vw, 100vw' }) }}
+          <figcaption>Разпределение на автоклавите по населени места</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# recipes #}
+<section class="recipes-teaser section-paper section-paper-2">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">{{ site.home.recipes.eyebrow }}</p>
+        <h2 class="display-3 reveal">{{ site.home.recipes.title }}</h2>
+      </div>
+      <div>
+        <p class="lead reveal">{{ site.home.recipes.text }}</p>
+        <a class="btn btn-dark btn-lg reveal" href="/autoclave/recipes.html">Всички рецепти <span class="badge">{{ recipes.recipes | length }}</span></a>
+      </div>
+    </div>
+    <div class="row g-4">
+      {% for slug in ['teleshko-meso', 'salata-ropotamo', 'bob'] %}
+      {% for recipe in recipes.recipes %}{% if recipe.slug == slug %}
+      <div class="col-md-4 reveal">{% include "partials/_recipe-card.njk" %}</div>
+      {% endif %}{% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% set ctaTitle = 'Искате да го видите как работи?' %}
+{% set ctaText = 'Елате в работилницата след кратка уговорка — ще заредим автоклава пред вас и ще отговорим на всички въпроси.' %}
+{% include "partials/_cta.njk" %}
+{% endblock %}

@@ -1,0 +1,20 @@
+{
+  "name": "tonkov-site-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Front end (Bootstrap 5) for the unified tonkov.eu site — static prototype for Yii2 integration",
+  "scripts": {
+    "images": "node scripts/images.mjs",
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch --serve",
+    "serve": "node build.mjs --serve"
+  },
+  "devDependencies": {
+    "@fontsource-variable/sofia-sans": "^5.3.0",
+    "bootstrap": "5.3",
+    "bootstrap-icons": "^1.13.2",
+    "nunjucks": "^3.2.4",
+    "sharp": "^0.35.5"
+  }
+}

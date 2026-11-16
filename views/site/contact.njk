@@ -1,0 +1,86 @@
+{# Contact  →  Yii2: views/site/contact.php with ActiveForm (model ContactForm). Markup follows yii\bootstrap5\ActiveForm. #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Контакти' %}
+{% set metaDescription = 'Свържете се с нас: Боян Тонков 0889 906 296 (автоклави, дърво, котли и горелки), Валентин Тонков 0883 519 006 (мониторинг и контрол). Караисен, община Павликени.' %}
+{% set crumbs = [{ label: 'Контакти' }] %}
+
+{% block content %}
+<div class="container pb-5 mb-lg-5">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-1">Нека се чуем.</h1>
+    <p class="lead">Най-бързо е по телефона. Ако предпочитате да пишете — формата е отдясно, отговаряме в рамките на работния ден.</p>
+  </header>
+
+  <div class="row gy-5">
+    <div class="col-lg-5">
+      {% for c in site.contacts %}
+      <div class="contact-card">
+        <p class="contact-card__topic">{{ c.topics }}</p>
+        <a class="contact-card__phone" href="{{ c.phoneHref }}">{{ c.phone }}</a>
+        <p>{{ c.name }} · <a href="mailto:{{ c.email }}">{{ c.email }}</a></p>
+      </div>
+      {% endfor %}
+      <div class="contact-card">
+        <p class="contact-card__topic">Работилница</p>
+        <p class="fs-5 fw-bold text-body mb-1">{{ site.company }}</p>
+        <p>{{ site.address }}, {{ site.region }}</p>
+        <p class="mt-3"><a class="btn btn-outline-dark" href="{{ site.mapUrl }}" target="_blank" rel="noopener"><i class="bi bi-geo-alt" aria-hidden="true"></i> Виж на картата</a></p>
+        <p class="mt-3 small">Посещения и демонстрации — след предварителна уговорка по телефона.</p>
+      </div>
+    </div>
+
+    <div class="col-lg-6 offset-lg-1">
+      {# Yii2: <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?> #}
+      <form id="contact-form" class="form-card" action="/contact.html" method="post" novalidate data-demo-form>
+        <h2 class="h3 mb-4">Изпратете запитване</h2>
+        <div class="row g-3">
+          <div class="col-sm-6 field-contactform-name required">
+            <label class="form-label" for="contactform-name">Име</label>
+            <input type="text" id="contactform-name" class="form-control" name="ContactForm[name]" autocomplete="name" required aria-required="true">
+            <div class="invalid-feedback">Моля, въведете име.</div>
+          </div>
+          <div class="col-sm-6 field-contactform-phone required">
+            <label class="form-label" for="contactform-phone">Телефон</label>
+            <input type="tel" id="contactform-phone" class="form-control" name="ContactForm[phone]" autocomplete="tel" required aria-required="true">
+            <div class="invalid-feedback">Моля, въведете телефон за връзка.</div>
+          </div>
+          <div class="col-sm-6 field-contactform-email">
+            <label class="form-label" for="contactform-email">Имейл</label>
+            <input type="email" id="contactform-email" class="form-control" name="ContactForm[email]" autocomplete="email">
+            <div class="invalid-feedback">Имейлът не изглежда валиден.</div>
+          </div>
+          <div class="col-sm-6 field-contactform-subject">
+            <label class="form-label" for="contactform-subject">Относно</label>
+            <select id="contactform-subject" class="form-select" name="ContactForm[subject]" data-prefill="subject">
+              <option value="general">Общ въпрос</option>
+              <option value="autoclave">Автоклав</option>
+              <option value="iot">Мониторинг и контрол</option>
+              <option value="wood">Дървени изделия</option>
+              <option value="custom">Изработка по поръчка</option>
+              <option value="burners">Котли и горелки</option>
+            </select>
+          </div>
+          <div class="col-12 field-contactform-body required">
+            <label class="form-label" for="contactform-body">Съобщение</label>
+            <textarea id="contactform-body" class="form-control" name="ContactForm[body]" rows="6" required aria-required="true" data-prefill="message"></textarea>
+            <div class="invalid-feedback">Моля, напишете съобщение.</div>
+          </div>
+          <div class="col-12 field-contactform-agree required">
+            <div class="form-check">
+              <input type="checkbox" id="contactform-agree" class="form-check-input" name="ContactForm[agree]" value="1" required aria-required="true">
+              <label class="form-check-label" for="contactform-agree">Съгласен съм данните ми да се обработят, за да получа отговор — според <a href="/privacy-policy.html">правилата за лични данни</a>.</label>
+              <div class="invalid-feedback">Необходимо е съгласие.</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-lg">Изпрати <i class="bi bi-send" aria-hidden="true"></i></button>
+            <div class="alert alert-warning form-demo" role="status" hidden>Това е прототип — формата още не изпраща съобщения. Моля, обадете се или ни пишете на имейл.</div>
+          </div>
+        </div>
+      </form>
+      {# Yii2: <?php ActiveForm::end(); ?> #}
+    </div>
+  </div>
+</div>
+{% endblock %}

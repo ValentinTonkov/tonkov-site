@@ -1,0 +1,91 @@
+{# Monitoring & control landing  →  Yii2: views/category/view.php variant #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = category.seoTitle %}
+{% set metaDescription = category.seoDescription %}
+{% set metaImage = 'img/site/iot_hero.jpg' %}
+{% set crumbs = [{ label: category.name }] %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="page-hero__media">{{ picture(category.image, 'Склад за зърно с визуализация на данните от термовъже', { sizes: '100vw', eager: true, position: category.position }) }}</div>
+  <div class="page-hero__content container">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-1">{{ category.title }}</h1>
+    <p class="lead">{{ category.intro }}</p>
+    <div class="page-hero__actions">
+      <a class="btn btn-primary btn-lg" href="#ustroystva">Към устройствата <i class="bi bi-arrow-down" aria-hidden="true"></i></a>
+      <a class="btn btn-outline-light btn-lg" href="#demo">Вижте реални данни</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-paper" id="ustroystva">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Устройства</p>
+        <h2 class="display-3 reveal">Мерят вместо вас. Денонощно.</h2>
+      </div>
+      <p class="lead reveal mb-0">Проектираме електрониката, пишем софтуера и сглобяваме устройствата сами. Затова можем да ги нагодим към вашия пчелин, склад или обект.</p>
+    </div>
+
+    {% for product in category.products %}
+    <article class="device-card reveal">
+      <div class="device-card__media">
+        {% if product.image %}<img src="/{{ product.image.src }}" alt="{{ product.image.alt }}" width="{{ product.image.w }}" height="{{ product.image.h }}" loading="lazy" decoding="async">{% endif %}
+        {% if product.isNew %}<span class="product-card__flag">Ново</span>{% endif %}
+      </div>
+      <div class="device-card__body">
+        <h3 class="device-card__title"><a href="{{ product.url }}">{{ product.name }}</a></h3>
+        <p class="device-card__price">{% if product.priceMax %}<small>от</small> {{ product.price | eur }}{% else %}{{ priceLabel(product) }}{% endif %}{% if product.priceNote %} <small>· {{ product.priceNote }}</small>{% endif %}</p>
+        <p class="lead mb-4">{{ product.summary }}</p>
+        <ul class="feature-list">
+          {% for f in product.features.slice(0, 4) %}<li><i class="bi bi-check2" aria-hidden="true"></i> {{ f }}</li>{% endfor %}
+        </ul>
+        <div><a class="btn btn-dark btn-lg" href="{{ product.url }}">Виж подробности <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+{# demo charts — placeholders until real data is connected #}
+<section class="section-paper section-paper-2" id="demo">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Демо</p>
+        <h2 class="display-3 reveal">Вижте какво ще виждате.</h2>
+      </div>
+      <p class="lead reveal mb-0">Графиките показват данни от реално работещи устройства — същите, които ще следите от телефона или компютъра си.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6 reveal">
+        {% set chartId = 'demo-vezna' %}{% set chartTitle = 'Везна за кошери — тегло на кошера' %}{% set chartUnit = 'кг' %}{% set chartSrc = '' %}{% set chartLink = '' %}
+        {% include "partials/_demo-chart.njk" %}
+      </div>
+      <div class="col-lg-6 reveal">
+        {% set chartId = 'demo-termovazhe' %}{% set chartTitle = 'Термовъже — температура на зърното' %}{% set chartUnit = '°C' %}{% set chartSrc = '' %}{% set chartLink = 'https://grainstore.tonkov.eu' %}
+        {% include "partials/_demo-chart.njk" %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-night">
+  <div class="container">
+    <div class="section-head mb-0">
+      <div>
+        <p class="eyebrow reveal">По задание</p>
+        <h2 class="display-3 reveal">Имате нещо, което искате да следите или управлявате?</h2>
+      </div>
+      <div>
+        <p class="lead reveal">Разработваме контролери, логери и автоматизации по задание — като контролера на нашия автоклав и управлението на пелетните ни горелки. Разкажете ни задачата.</p>
+        <a class="btn btn-primary btn-lg reveal" href="/contact.html?subject=iot">Изпратете запитване <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "partials/_cta.njk" %}
+{% endblock %}

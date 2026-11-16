@@ -1,0 +1,10 @@
+{# Breadcrumbs  →  Yii2: yii\bootstrap5\Breadcrumbs. Expects: crumbs = [{label, url?}] #}
+<nav aria-label="Навигационна пътека" class="crumbs">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Начало</a></li>
+    {% for c in crumbs %}
+    {% if c.url %}<li class="breadcrumb-item"><a href="{{ c.url }}">{{ c.label }}</a></li>
+    {% else %}<li class="breadcrumb-item active" aria-current="page">{{ c.label }}</li>{% endif %}
+    {% endfor %}
+  </ol>
+</nav>

@@ -1,0 +1,46 @@
+{# Site footer  →  Yii2: part of views/layouts/main.php #}
+<footer class="site-footer">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-4">
+        <a href="/" class="site-footer__logo" aria-label="Tonkov — начало"><img src="/img/logo-white.png" alt="Tonkov" width="319" height="125" loading="lazy"></a>
+        <p class="site-footer__about">{{ site.company }} — семейна работилница в Караисен от {{ site.founded }} г. Дърво, метал и електроника под един покрив.</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2 offset-lg-1">
+        <h2 class="site-footer__title">Направления</h2>
+        <ul class="list-unstyled site-footer__links">
+          {% for c in categories %}{% if not c.parent %}
+          <li><a href="{{ c.url }}">{{ c.name }}</a></li>
+          {% endif %}{% endfor %}
+        </ul>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+        <h2 class="site-footer__title">Информация</h2>
+        <ul class="list-unstyled site-footer__links">
+          <li><a href="/autoclave/recipes.html">Рецепти за автоклав</a></li>
+          <li><a href="/autoclave/guide.html">Работа с автоклава</a></li>
+          <li><a href="/gallery.html">Галерия</a></li>
+          <li><a href="/about.html">За нас</a></li>
+          <li><a href="/order.html">Поръчка и доставка</a></li>
+          <li><a href="/privacy-policy.html">Лични данни</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-lg-3">
+        <h2 class="site-footer__title">Контакти</h2>
+        <ul class="list-unstyled site-footer__links site-footer__contacts">
+          {% for c in site.contacts %}
+          <li>
+            <span>{{ c.topics }}</span>
+            <a href="{{ c.phoneHref }}">{{ c.phone }}</a> · <a href="mailto:{{ c.email }}">{{ c.email }}</a>
+          </li>
+          {% endfor %}
+          <li><span>Адрес</span>{{ site.address }}, {{ site.region }}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© {{ year }} {{ site.company }}</span>
+      <span>{{ site.delivery }} · {{ site.payment }}</span>
+    </div>
+  </div>
+</footer>

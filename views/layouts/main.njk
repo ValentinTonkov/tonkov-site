@@ -1,0 +1,45 @@
+{#
+  Main layout  →  Yii2: views/layouts/main.php
+  Blocks: content (= $content), scripts (page-specific JS).
+  Variables: metaTitle / metaDescription / metaImage (= $this->title, meta tags), active (nav item), bodyClass ("has-hero" = transparent navbar over a full-bleed hero).
+#}
+<!DOCTYPE html>
+<html lang="bg" data-root="/">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {# Yii2: <?= Html::csrfMetaTags() ?> #}
+  {# Each view sets: metaTitle, metaDescription (optional), metaImage (optional) #}
+  {% set _desc = metaDescription or 'Семейна работилница от Караисен: автоклави за домашни консерви, системи за мониторинг и контрол, изделия от дърво, пелетни котли и горелки.' %}
+  <title>{{ metaTitle or site.brand }} — Tonkov</title>
+  <meta name="description" content="{{ _desc }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Tonkov">
+  <meta property="og:title" content="{{ metaTitle or site.brand }}">
+  <meta property="og:description" content="{{ _desc }}">
+  <meta property="og:image" content="/{{ metaImage or 'img/site/hero_section.jpg' }}">
+  <meta name="theme-color" content="#0f0d0b">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preload" href="/fonts/sofia-sans-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/vendor/bootstrap-icons/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="/css/site.css" rel="stylesheet">
+</head>
+<body class="{{ bodyClass }}">
+<a class="visually-hidden-focusable skip-link" href="#main">Към съдържанието</a>
+
+{% include "partials/_navbar.njk" %}
+
+<main id="main">
+{% block content %}{% endblock %}
+</main>
+
+{% include "partials/_footer.njk" %}
+
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/js/site.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

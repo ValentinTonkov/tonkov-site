@@ -1,0 +1,40 @@
+{#
+  Generic category page (used for the wood sub-categories)  →  Yii2: views/category/view.php
+  Expects: category = {name, intro, products[], parentCategory, …}
+#}
+{% extends "layouts/main.njk" %}
+{% set parent = category.parentCategory %}
+{% set metaTitle = category.seoTitle or (category.name + (' — ' + parent.name if parent else '')) %}
+{% set metaDescription = category.seoDescription or category.intro %}
+{% set crumbs = ([{ label: parent.name, url: parent.url }] if parent else []).concat([{ label: category.name }]) %}
+
+{% block content %}
+<div class="container">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-2">{{ category.name }}</h1>
+    <p class="lead">{{ category.intro }}</p>
+  </header>
+
+  <section class="catalog pt-0" aria-label="Продукти">
+    {% if parent %}
+    <ul class="pills" aria-label="Категории">
+      <li><a href="{{ parent.url }}">Всички</a></li>
+      {% for c in parent.children %}
+      <li><a href="{{ c.url }}"{% if c.slug == category.slug %} class="active" aria-current="page"{% endif %}>{{ c.name }} <small>{{ c.products | length }}</small></a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="product-grid">
+      {% for product in category.products %}
+      {% include "partials/_product-card.njk" %}
+      {% endfor %}
+    </div>
+  </section>
+</div>
+
+{% set ctaTitle = 'Не намирате точно това?' %}
+{% set ctaText = 'Изработваме и по ваша идея — размер, надпис, мотив или съвсем ново изделие. Обадете се или ни пишете.' %}
+{% include "partials/_cta.njk" %}
+{% endblock %}

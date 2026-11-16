@@ -1,0 +1,201 @@
+{#
+  Product page — one template for every product  →  Yii2: views/product/view.php
+  Expects: product, related[]. Optional blocks appear only when the product has the data.
+#}
+{% extends "layouts/main.njk" %}
+{% set root = product.root %}
+{% set cat = product.categoryObj %}
+{% set metaTitle = product.name + ' — ' + root.name %}
+{% set metaDescription = product.summary %}
+{% set metaImage = product.image.src if product.image else '' %}
+{% set crumbs = [{ label: root.name, url: root.url }].concat([{ label: cat.name, url: cat.url }] if cat.slug != root.slug else []).concat([{ label: product.name }]) %}
+{% set orderable = product.cta == 'order' and product.price != null %}
+
+{% block content %}
+<div class="container product">
+  {% include "partials/_breadcrumbs.njk" %}
+
+  <div class="product__layout">
+    {# ---------- gallery #}
+    <div class="product__gallery" data-gallery>
+      {% if product.image %}
+      {# the frame takes the proportions of the first photo (kept between 4:5 and 3:2) #}
+      {% set ratio = product.image.w / product.image.h %}
+      <button type="button" class="gallery-main" style="aspect-ratio: {{ clamp(ratio, 0.8, 1.5) }}" data-gallery-main data-full="/{{ product.image.src }}" aria-label="Увеличи снимката">
+        <img src="/{{ product.image.src }}" alt="{{ product.image.alt }}" width="{{ product.image.w }}" height="{{ product.image.h }}" fetchpriority="high">
+      </button>
+      {% if product.images | length > 1 %}
+      <ul class="gallery-thumbs" aria-label="Още снимки">
+        {% for img in product.images %}
+        <li><button type="button" data-gallery-thumb data-src="/{{ img.src }}" data-alt="{{ img.alt }}" aria-current="{{ 'true' if loop.first else 'false' }}" aria-label="Снимка {{ loop.index }}"><img src="/{{ img.thumb }}" alt="" width="120" height="120" loading="lazy"></button></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% else %}
+      <div class="gallery-main"><span class="product-card__placeholder"><i class="bi bi-image" aria-hidden="true"></i> Снимката предстои</span></div>
+      {% endif %}
+    </div>
+
+    {# ---------- summary + buy box #}
+    <div class="product__info">
+      {% if product.sku %}<p class="product__sku">Кат. № {{ product.sku }}</p>{% endif %}
+      <h1 class="product__title">{{ product.name }}</h1>
+      {% if product.summary %}<p class="product__summary">{{ product.summary }}</p>{% endif %}
+
+      <div class="product__buy">
+        <p class="product__price{% if product.price == null %} is-inquiry{% endif %}">
+          <span data-product-price>{{ priceLabel(product) }}</span>
+          {% if product.priceNote %}<small>{{ product.priceNote }}</small>{% endif %}
+        </p>
+        <div class="product__actions">
+          {% if orderable %}
+          {# Yii2: POST to the cart controller. The data-* attributes feed the prototype cart in site.js. #}
+          <button type="button" class="btn btn-primary btn-lg" data-cart-add
+                  data-id="{{ product.slug }}" data-name="{{ product.name }}" data-price="{{ product.price }}"
+                  data-image="{{ product.image.thumb if product.image else '' }}" data-url="{{ product.url }}"
+                  {% if product.variants %}data-variant-select="#product-variant"{% endif %}>
+            <i class="bi bi-bag-plus" aria-hidden="true"></i> Добави в количката
+          </button>
+          {% else %}
+          <a class="btn btn-primary btn-lg" href="/contact.html?product={{ product.name | urlencode }}">Изпратете запитване <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          {% endif %}
+          <a class="btn btn-outline-dark btn-lg" href="{{ site.contacts[1].phoneHref if root.slug == 'monitoring' else site.contacts[0].phoneHref }}"><i class="bi bi-telephone" aria-hidden="true"></i> Обадете се</a>
+        </div>
+      </div>
+
+      {% if product.variants %}
+      <div class="mb-4">
+        <label class="form-label" for="product-variant">Модел</label>
+        <select class="form-select" id="product-variant" name="variant" data-variant-price>
+          <option value="" data-price="" selected disabled>Изберете модел…</option>
+          {% for v in product.variants %}
+          <option value="{{ v.name }}" data-price="{{ v.price }}">{{ v.name }} — {{ v.group }} — {{ v.price | eur }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      {% endif %}
+
+      {% if product.notes %}
+      <ul class="product__notes">
+        {% for n in product.notes %}<li><i class="bi bi-info-circle" aria-hidden="true"></i> {{ n }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if product.features | length %}
+      <ul class="feature-list">
+        {% for f in product.features %}<li><i class="bi bi-check2" aria-hidden="true"></i> {{ f }}</li>{% endfor %}
+      </ul>
+      {% elif product.specs | length %}
+      <table class="spec-table">
+        <tbody>
+          {% for s in product.specs %}<tr><th scope="row">{{ s.label }}</th><td>{{ s.value }}</td></tr>{% endfor %}
+        </tbody>
+      </table>
+      {% endif %}
+
+      <ul class="product__trust">
+        <li><i class="bi bi-truck" aria-hidden="true"></i> {{ site.delivery }}</li>
+        <li><i class="bi bi-wallet2" aria-hidden="true"></i> {{ site.payment }}</li>
+        <li><i class="bi bi-tools" aria-hidden="true"></i> Правим го сами в Караисен — и го поддържаме</li>
+      </ul>
+    </div>
+  </div>
+
+  {# ---------- description (+ specs when the features took the place above) #}
+  {% if product.description or (product.features | length and product.specs | length) %}
+  <section class="product-section" aria-labelledby="opisanie">
+    <div class="row gy-5">
+      <div class="col-lg-7">
+        <h2 id="opisanie">Описание</h2>
+        <div class="prose">{{ product.description | md }}</div>
+      </div>
+      {% if product.features | length and product.specs | length %}
+      <div class="col-lg-4 offset-lg-1">
+        <h2 class="h3">Технически данни</h2>
+        <table class="spec-table">
+          <tbody>
+            {% if product.sku %}<tr><th scope="row">Каталожен номер</th><td>{{ product.sku }}</td></tr>{% endif %}
+            {% for s in product.specs %}<tr><th scope="row">{{ s.label }}</th><td>{{ s.value }}</td></tr>{% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  {# ---------- variants #}
+  {% if product.variants %}
+  <section class="product-section" aria-labelledby="modeli">
+    <h2 id="modeli">Модели и цени</h2>
+    <div class="table-responsive">
+      <table class="table variant-table">
+        <thead><tr><th scope="col">Модел</th><th scope="col">Връзка</th><th scope="col">Какво измерва</th><th scope="col" class="text-end">Цена</th></tr></thead>
+        <tbody>
+          {% for v in product.variants %}
+          <tr><td><code>{{ v.name }}</code></td><td>{{ v.group }}</td><td>{{ v.params | join(', ') }}</td><td class="price">{{ v.price | eur }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {% endif %}
+
+  {# ---------- demo chart (placeholder until data is connected) #}
+  {% if product.demo %}
+  <section class="product-section" aria-label="Демо данни">
+    {% set chartId = 'demo-' + product.slug %}
+    {% set chartTitle = 'Как изглеждат данните от ' + ('везната' if product.slug == 'vezna-za-kosheri' else 'термовъжето') %}
+    {% set chartSrc = '' %}
+    {% set chartLink = product.demoUrl %}
+    {% include "partials/_demo-chart.njk" %}
+  </section>
+  {% endif %}
+
+  {# ---------- videos #}
+  {% if product.videos | length %}
+  <section class="product-section" aria-labelledby="video">
+    <h2 id="video">Видео</h2>
+    <div class="video-grid">
+      {% for video in product.videos %}{% include "partials/_video.njk" %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  {# ---------- documents #}
+  {% if product.documents | length %}
+  <section class="product-section" aria-labelledby="dokumenti">
+    <h2 id="dokumenti">Документи</h2>
+    <ul class="doc-list">
+      {% for doc in product.documents %}
+      <li><a href="/{{ doc.href }}" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> {{ doc.title }}</a></li>
+      {% endfor %}
+      {% if product.slug == 'avtoklav' %}
+      <li><a href="/autoclave/guide.html"><i class="bi bi-list-ol" aria-hidden="true"></i> Работа с автоклава — стъпка по стъпка</a></li>
+      <li><a href="/autoclave/recipes.html"><i class="bi bi-journal-text" aria-hidden="true"></i> Рецепти за автоклав</a></li>
+      {% endif %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {# ---------- related #}
+  {% if related | length %}
+  <section class="product-section" aria-labelledby="oshte">
+    <div class="catalog__head border-0 pb-0">
+      <h2 id="oshte">Още от „{{ cat.name }}“</h2>
+      <a class="catalog__more" href="{{ cat.url }}">Всички <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+    </div>
+    <div class="product-grid">
+      {% for product in related %}{% include "partials/_product-card.njk" %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+</div>
+
+{# Product structured data for search engines #}
+<script type="application/ld+json">{{ {
+  '@context': 'https://schema.org', '@type': 'Product', name: product.name, description: product.summary, sku: product.sku,
+  image: (site.url + '/' + product.image.src) if product.image else undefined,
+  offers: { '@type': 'Offer', priceCurrency: 'EUR', price: product.price } if product.price != null else undefined
+} | json }}</script>
+{% endblock %}

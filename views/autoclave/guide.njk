@@ -1,0 +1,64 @@
+{# "Working with the autoclave" — step-by-step guide  →  Yii2: views/autoclave/guide.php #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Работа с автоклава — стъпка по стъпка' %}
+{% set metaDescription = 'Как се работи с автоклава: зареждане, настройка на контролера, протичане на цикъла, охлаждане и правила за безопасност. Със снимки и видео.' %}
+{% set crumbs = [{ label: 'Автоклави', url: '/category/avtoklavi.html' }, { label: 'Работа с автоклава' }] %}
+
+{% block content %}
+<div class="container">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-2">Работа с автоклава</h1>
+    <p class="lead">От зареждането до отварянето на капака — всяка стъпка по реда си.</p>
+  </header>
+
+  <div class="note-box note-box--warn mb-5">
+    <i class="bi bi-exclamation-triangle" aria-hidden="true"></i>
+    <p>{{ guide.warning }}</p>
+  </div>
+
+  {% set counter = 0 %}
+  {% for section in guide.sections %}
+  <section class="guide-section" aria-labelledby="razdel-{{ loop.index }}">
+    <h2 id="razdel-{{ loop.index }}">{{ section.title }}</h2>
+    {% if section.title == 'Безопасност' %}
+    <ul class="guide-safety">
+      {% for s in section.steps %}<li><i class="bi bi-shield-exclamation" aria-hidden="true"></i> {{ s.title }}</li>{% endfor %}
+    </ul>
+    {% else %}
+    <ol class="guide-steps">
+      {% for s in section.steps %}
+      {% set counter = counter + 1 %}
+      <li class="guide-step{% if s.image %} has-image{% endif %}">
+        <span class="guide-step__num" aria-hidden="true">{{ ('0' + counter) if counter < 10 else counter }}</span>
+        <div>
+          <h3>{{ s.title }}</h3>
+          <div class="prose">{{ s.text | md }}</div>
+        </div>
+        {% if s.image %}
+        <div class="guide-step__media">
+          <img src="/{{ s.image.src }}" alt="{{ s.image.alt }}" width="{{ s.image.w }}" height="{{ s.image.h }}" loading="lazy" decoding="async">
+          {% if s.extraImage %}<img src="/{{ s.extraImage.src }}" alt="{{ s.extraImage.alt }}" width="{{ s.extraImage.w }}" height="{{ s.extraImage.h }}" loading="lazy" decoding="async">{% endif %}
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+    {% endif %}
+  </section>
+  {% endfor %}
+
+  <section class="guide-section" aria-labelledby="video">
+    <h2 id="video">Видео</h2>
+    <div class="video-grid">
+      {% for video in guide.videos %}{% include "partials/_video.njk" %}{% endfor %}
+    </div>
+  </section>
+
+  <div class="py-5 my-lg-4 d-flex flex-wrap gap-2">
+    <a class="btn btn-dark btn-lg" href="/{{ guide.pdf }}" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Ръководство (PDF)</a>
+    <a class="btn btn-outline-dark btn-lg" href="/autoclave/recipes.html">Рецепти</a>
+    <a class="btn btn-outline-dark btn-lg" href="/product/avtoklav.html">Към автоклава</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{#
+  Placeholder for a live/demo chart of a device.
+  Expects: chartId, chartTitle, chartText (optional), chartSrc (optional JSON url), chartLink (optional external demo).
+  To show real data set data-src to a JSON file/endpoint — see README ("Demo chart").
+#}
+<div class="demo-chart" id="{{ chartId }}" data-demo-chart data-src="{{ chartSrc or '' }}" data-unit="{{ chartUnit or '' }}">
+  <div class="demo-chart__head">
+    <div>
+      <p class="eyebrow">Данни от реално устройство</p>
+      <h3 class="demo-chart__title">{{ chartTitle }}</h3>
+    </div>
+    {% if chartLink %}<a class="btn btn-outline-dark btn-sm" href="{{ chartLink }}" target="_blank" rel="noopener">Отвори демото <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>{% endif %}
+  </div>
+  <div class="demo-chart__plot" data-demo-chart-plot>
+    <svg class="demo-chart__ghost" viewBox="0 0 800 280" preserveAspectRatio="none" aria-hidden="true">
+      <g class="demo-chart__grid">
+        <line x1="0" y1="56" x2="800" y2="56"/><line x1="0" y1="112" x2="800" y2="112"/><line x1="0" y1="168" x2="800" y2="168"/><line x1="0" y1="224" x2="800" y2="224"/>
+      </g>
+      <path class="demo-chart__line" d="M0 210 C 60 200, 90 190, 140 186 S 220 150, 270 156 S 340 120, 400 126 S 470 96, 520 104 S 600 70, 660 78 S 750 52, 800 46" />
+    </svg>
+    <p class="demo-chart__empty"><i class="bi bi-graph-up" aria-hidden="true"></i> {{ chartText or 'Тук ще се показва графика с реални данни от устройството.' }}</p>
+  </div>
+</div>

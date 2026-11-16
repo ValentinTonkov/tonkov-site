@@ -1,0 +1,16 @@
+{# Product card  →  Yii2: views/product/_card.php (ListView itemView). Expects: product #}
+<article class="product-card">
+  <a class="product-card__media" href="{{ product.url }}" tabindex="-1" aria-hidden="true">
+    {% if product.image %}
+    <img src="/{{ product.image.thumb }}" alt="" width="{{ product.image.w }}" height="{{ product.image.h }}" loading="lazy" decoding="async">
+    {% else %}
+    <span class="product-card__placeholder"><i class="bi bi-image" aria-hidden="true"></i> Снимката предстои</span>
+    {% endif %}
+    {% if product.isNew %}<span class="product-card__flag">Ново</span>{% endif %}
+  </a>
+  <div class="product-card__body">
+    <h3 class="product-card__title"><a href="{{ product.url }}" class="stretched-link">{{ product.name }}</a></h3>
+    {% if product.summary %}<p class="product-card__text">{{ product.summary }}</p>{% endif %}
+    <p class="product-card__price{% if product.price == null %} is-inquiry{% endif %}">{% if product.priceMax %}<span class="product-card__from">от</span> {{ product.price | eur }}{% else %}{{ priceLabel(product) }}{% endif %}</p>
+  </div>
+</article>

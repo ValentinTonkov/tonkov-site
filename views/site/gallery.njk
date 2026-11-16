@@ -1,0 +1,68 @@
+{# Gallery of unique pieces and custom projects  →  Yii2: views/site/gallery.php (old URL /gallery.html is kept) #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Галерия — уникати и изработка по поръчка' %}
+{% set metaDescription = 'Единични изделия и проекти по поръчка: плата от цяло дърво, подаръци с вграден дисплей, лампи, плотове с дърворезба, кладенци и интериори.' %}
+{% set metaImage = 'img/site/gallery3.jpg' %}
+{% set crumbs = [{ label: 'Галерия' }] %}
+
+{% block content %}
+<section class="section-night pb-0" style="padding-top: clamp(2rem, 4vw, 3.5rem)">
+  <div class="container">
+    <header class="page-head pt-0">
+      {% include "partials/_breadcrumbs.njk" %}
+      <h1 class="display-1">{{ gallery.page.title }}</h1>
+      <p class="lead">{{ gallery.page.text }}</p>
+    </header>
+  </div>
+</section>
+
+<section class="section-night">
+  <div class="container">
+    <div class="unique">
+      {% for g in gallery.featured %}
+      <article class="unique__item reveal">
+        <button type="button" class="unique__media" data-full="/img/site/{{ g.image }}-1600.webp" aria-label="Увеличи снимката">
+          {{ picture(g.image, g.alt, { sizes: '(min-width: 992px) 58vw, 100vw' }) }}
+        </button>
+        <div>
+          <span class="unique__num" aria-hidden="true">0{{ loop.index }}</span>
+          <h2 class="unique__title">{{ g.title }}</h2>
+          <p>{{ g.text }}</p>
+          {% if g.more %}
+          <ul class="unique__more list-unstyled">
+            {% for m in g.more %}
+            <li><button type="button" data-full="/img/site/{{ m.image }}-1600.webp" aria-label="Увеличи снимката">{{ picture(m.image, m.alt, { sizes: '10rem' }) }}</button></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-paper">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Проекти</p>
+        <h2 class="display-3">По-големи поръчки и интериори.</h2>
+      </div>
+      <p class="lead mb-0">Ловни зали с резбовани основи за трофеи, дървени кладенци, пана — правени по мярка за мястото, на което стоят.</p>
+    </div>
+    <div class="photo-grid">
+      {% for p in gallery.projects %}
+      <button type="button" class="reveal" data-full="/{{ p.src }}.webp" aria-label="Увеличи: {{ p.title }}">
+        <img src="/{{ p.src }}-t.webp" alt="{{ p.alt }}" width="640" height="480" loading="lazy" decoding="async">
+        <span>{{ p.title }}</span>
+      </button>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% set ctaTitle = gallery.page.ctaTitle %}
+{% set ctaText = gallery.page.ctaText %}
+{% include "partials/_cta.njk" %}
+{% endblock %}

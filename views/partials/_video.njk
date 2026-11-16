@@ -1,0 +1,8 @@
+{# Lite YouTube embed: thumbnail first, iframe only after a click. Expects: video = {id, title} #}
+<figure class="video">
+  <button type="button" class="video__button" data-youtube="{{ video.id }}" aria-label="Пусни видеото: {{ video.title }}">
+    <img src="/img/video/{{ video.id }}.webp" alt="" width="640" height="360" loading="lazy" decoding="async">
+    <span class="video__play" aria-hidden="true"><i class="bi bi-play-fill"></i></span>
+  </button>
+  <figcaption>{{ video.title }}</figcaption>
+</figure>

@@ -1,0 +1,220 @@
+{# Home page  →  Yii2: views/site/index.php. All texts come from data/site.json → "home". #}
+{% extends "layouts/main.njk" %}
+{% set home = site.home %}
+
+{% set metaTitle = 'Автоклави, мониторинг и изделия от дърво' %}
+
+{% block content %}
+
+{# ============================================================ 1. HERO #}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__media">
+    {{ picture('hero_section', 'Автоклав, везна за кошери, дъбово буре и резбовани плата на маса в работилницата, осветени от лампа и фенер', { sizes: '100vw', eager: true }) }}
+  </div>
+  <div class="hero__content container">
+    <p class="eyebrow hero__eyebrow">{{ home.hero.eyebrow }}</p>
+    <h1 class="hero__title" id="hero-title">
+      {% for line in home.hero.title %}<span class="hero__line"><span>{{ line }}</span></span>{% endfor %}
+    </h1>
+    {# on desktop this block sits on the free wall to the right of the autoclave #}
+    <div class="hero__aside">
+      <p class="hero__text">{{ home.hero.text }}</p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="{{ home.hero.primary.href }}">{{ home.hero.primary.label }} <i class="bi bi-arrow-down" aria-hidden="true"></i></a>
+        <a class="btn btn-outline-light" href="{{ home.hero.secondary.href }}">{{ home.hero.secondary.label }}</a>
+      </div>
+    </div>
+  </div>
+  <a class="hero__scroll" href="#nachalo" aria-label="Надолу"><span></span></a>
+</section>
+
+{# ======================================================= 2. STATEMENT #}
+<section class="statement section-paper" id="nachalo">
+  <div class="container">
+    <p class="statement__text" data-words>{{ home.statement }}</p>
+    <dl class="stats">
+      {% for s in home.stats %}
+      <div class="stats__item reveal">
+        <dd class="stats__value">{% if s.plain %}{{ s.value }}{% else %}<span data-count="{{ s.value }}">{{ s.value }}</span>{{ s.suffix }}{% endif %}</dd>
+        <dt class="stats__label">{{ s.label }}</dt>
+      </div>
+      {% endfor %}
+    </dl>
+  </div>
+</section>
+
+{# ================================================== 3. WHAT WE DO (3 panels) #}
+<section class="showcase" id="napravlenia" aria-label="Какво правим">
+  <header class="showcase__intro">
+    <div class="container">
+      <p class="eyebrow">Какво правим</p>
+      <h2 class="display-2">Четири направления.<br>Един начин на работа.</h2>
+    </div>
+  </header>
+
+  <div class="showcase__stack">
+    {% for p in home.panels %}
+    {#
+      Optional framing of the photo (data/site.json):
+        position      CSS object-position
+        zoom, origin  enlarge the photo around a point
+        topAt         fraction of the photo's height that should sit right under the navbar
+                      (the photo is cropped from the top up to there and enlarged if it has to be)
+    #}
+    {% set photo = images[p.image] %}
+    <article class="panel{% if p.topAt %} panel--top-at{% endif %}" id="{{ p.id }}"{% if p.zoom or p.topAt %} style="{% if p.zoom %}--zoom:{{ p.zoom }}; --origin:{{ p.origin or '50% 50%' }};{% endif %}{% if p.topAt %}--photo-h:{{ (100 / photo.ratio) | round(3) }}vw; --top-frac:{{ p.topAt }}{% endif %}"{% endif %}>
+      <div class="panel__media">
+        {{ picture(p.image, p.alt, { sizes: '100vw', position: p.position }) }}
+      </div>
+      <div class="panel__content container">
+        <p class="panel__index" aria-hidden="true">0{{ loop.index }} <span>/ 0{{ home.panels | length }}</span></p>
+        <p class="eyebrow">{{ p.eyebrow }}</p>
+        {# title: a string, or a list of lines (broken with <br> on wider screens) #}
+        <h3 class="panel__title">{% if p.title is string %}{{ p.title }}{% else %}{% for line in p.title %}{{ line }}{% if not loop.last %} <br>{% endif %}{% endfor %}{% endif %}</h3>
+        <p class="panel__text">{{ p.text }}</p>
+        <div class="panel__actions">
+          <a class="btn btn-primary btn-lg" href="{{ p.primary.href }}">{{ p.primary.label }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          {% if p.secondary %}<a class="btn btn-outline-light btn-lg" href="{{ p.secondary.href }}">{{ p.secondary.label }}</a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+
+    {# The fourth direction has no hero image — a plain category band. #}
+    <article class="burners-band" id="kotli-i-gorelki">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <p class="eyebrow reveal">{{ home.burners.eyebrow }}</p>
+            <h3 class="display-3 reveal">{{ home.burners.title }}</h3>
+            <p class="lead reveal">{{ home.burners.text }}</p>
+            <a class="btn btn-primary btn-lg reveal" href="{{ home.burners.primary.href }}">{{ home.burners.primary.label }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-lg-4 offset-lg-1">
+            <ul class="burners-band__list list-unstyled">
+              {% for point in home.burners.points %}<li class="reveal"><i class="bi bi-fire" aria-hidden="true"></i> {{ point }}</li>{% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+{# ============================================================== 4. MAP #}
+<section class="map-section section-paper" aria-labelledby="map-title">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-5">
+        <p class="eyebrow reveal">{{ home.map.eyebrow }}</p>
+        <h2 class="display-3 reveal" id="map-title">{{ home.map.title }}</h2>
+        <p class="lead reveal">{{ home.map.text }}</p>
+        <a class="btn btn-dark btn-lg reveal" href="{{ home.map.primary.href }}">{{ home.map.primary.label }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="col-lg-7">
+        <figure class="map-figure reveal">
+          {{ picture('avtoklavi_karta_prozrachna', 'Карта на България с разпределението на автоклавите по населени места: Караисен 18, София 14, Пловдив 9, Павликени 8, Севлиево 6 и още десетки градове и села', { sizes: '(min-width: 992px) 58vw, 100vw' }) }}
+          <figcaption>Разпределение на автоклавите по населени места</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ================================================= 5. WHO WE ARE / HOW WE WORK #}
+<section class="about-section section-night" aria-labelledby="about-title">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-5">
+        <div class="about-section__sticky">
+          <p class="eyebrow reveal">{{ home.about.eyebrow }}</p>
+          <h2 class="display-2 reveal" id="about-title">{{ home.about.title }}</h2>
+          <p class="lead reveal">{{ home.about.text }}</p>
+          <a class="btn btn-outline-light btn-lg reveal" href="/about.html">Повече за нас</a>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-1">
+        <ol class="chapters list-unstyled">
+          {% for c in home.about.chapters %}
+          <li class="chapter reveal">
+            <div class="chapter__media">{{ picture(c.image, c.alt, { sizes: '(min-width: 992px) 50vw, 100vw' }) }}</div>
+            <div class="chapter__body">
+              <span class="chapter__num" aria-hidden="true">0{{ loop.index }}</span>
+              <div>
+                <h3 class="chapter__title">{{ c.title }}</h3>
+                <p>{{ c.text }}</p>
+              </div>
+            </div>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <ul class="principles list-unstyled">
+      {% for p in home.about.principles %}
+      <li class="principles__item reveal">
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.text }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ========================================================== 6. RECIPES #}
+<section class="recipes-teaser section-paper" aria-labelledby="recipes-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">{{ home.recipes.eyebrow }}</p>
+        <h2 class="display-3 reveal" id="recipes-title">{{ home.recipes.title }}</h2>
+      </div>
+      <div>
+        <p class="lead reveal">{{ home.recipes.text }}</p>
+        <a class="btn btn-dark btn-lg reveal" href="{{ home.recipes.primary.href }}">{{ home.recipes.primary.label }} <span class="badge">{{ recipes.recipes | length }}</span></a>
+      </div>
+    </div>
+    <div class="row g-4">
+      {% for slug in home.recipes.featured %}
+      {% for recipe in recipes.recipes %}{% if recipe.slug == slug %}
+      <div class="col-md-4 reveal">{% include "partials/_recipe-card.njk" %}</div>
+      {% endif %}{% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ========================================================== 7. GALLERY #}
+<section class="gallery-teaser section-night" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">{{ home.gallery.eyebrow }}</p>
+        <h2 class="display-3 reveal" id="gallery-title">{{ home.gallery.title }}</h2>
+      </div>
+      <div>
+        <p class="lead reveal">{{ home.gallery.text }}</p>
+        <div class="d-flex flex-wrap gap-2 reveal">
+          <a class="btn btn-primary btn-lg" href="{{ home.gallery.primary.href }}">{{ home.gallery.primary.label }} <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+          <a class="btn btn-outline-light btn-lg" href="{{ home.gallery.secondary.href }}">{{ home.gallery.secondary.label }}</a>
+        </div>
+      </div>
+    </div>
+    <div class="mosaic">
+      {% for name in home.gallery.featured %}
+      {% for g in gallery.featured %}{% if g.image == name %}
+      <a class="mosaic__item reveal" href="/gallery.html">
+        {{ picture(g.image, g.alt, { sizes: '(min-width: 768px) 50vw, 100vw' }) }}
+        <span class="mosaic__caption">{{ g.title }}</span>
+      </a>
+      {% endif %}{% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{# ============================================================== 8. CTA #}
+{% include "partials/_cta.njk" %}
+
+{% endblock %}

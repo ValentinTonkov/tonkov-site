@@ -1,0 +1,45 @@
+{# Site header  →  Yii2: yii\bootstrap5\NavBar + Nav (or keep this markup in the layout). #}
+<header class="site-header">
+  <nav class="navbar navbar-expand-xl navbar-dark site-nav fixed-top" aria-label="Основна навигация">
+    <div class="container-fluid site-nav__inner">
+      <a class="navbar-brand" href="/" aria-label="Tonkov — начало">
+        <img src="/img/logo-white.png" alt="Tonkov" width="319" height="125">
+      </a>
+
+      <div class="d-flex align-items-center gap-2 order-xl-last">
+        <a class="site-nav__phone d-none d-md-inline-flex" href="{{ site.contacts[0].phoneHref }}">
+          <i class="bi bi-telephone" aria-hidden="true"></i><span>{{ site.contacts[0].phone }}</span>
+        </a>
+        <a class="site-nav__cart" href="/cart/index.html" aria-label="Количка">
+          <i class="bi bi-bag" aria-hidden="true"></i>
+          {# Yii2: number of items in the cart; hidden when 0 #}
+          <span class="site-nav__badge" data-cart-count hidden>0</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#siteMenu" aria-controls="siteMenu" aria-label="Меню">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="offcanvas offcanvas-end site-menu" tabindex="-1" id="siteMenu" aria-labelledby="siteMenuLabel">
+        <div class="offcanvas-header">
+          <span class="offcanvas-title" id="siteMenuLabel">Меню</span>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Затвори"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav mx-xl-auto">
+            {% for item in site.nav %}
+            <li class="nav-item">
+              <a class="nav-link{% if active == item.match %} active{% endif %}"{% if active == item.match %} aria-current="page"{% endif %} href="{{ item.href }}">{{ item.label }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          <div class="site-menu__contacts d-xl-none">
+            {% for c in site.contacts %}
+            <a href="{{ c.phoneHref }}"><i class="bi bi-telephone" aria-hidden="true"></i> {{ c.phone }} <small>{{ c.topics }}</small></a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

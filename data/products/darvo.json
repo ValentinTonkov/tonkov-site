@@ -1,0 +1,3424 @@
+[
+  {
+    "slug": "bure-5l-sys-stoika-za-chashi",
+    "name": "Буре 5 л със стойка за чаши",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.022",
+    "price": 76,
+    "cta": "order",
+    "summary": "Дъбово буре 5 л върху стойка с гнезда за чаши.",
+    "description": "Дъбово буре с обем 5 литра върху стойка, на която чашите висят от двете страни на бурето.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "notes": [
+      "Чашите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bure-5l-sys-stoika-za-chashi-1.webp",
+        "w": 1200,
+        "h": 799,
+        "thumb": "img/products/bure-5l-sys-stoika-za-chashi-1-t.webp",
+        "alt": "Дъбово буре 5 л върху стойка с гнезда за чаши"
+      },
+      {
+        "src": "img/products/bure-5l-sys-stoika-za-chashi-2.webp",
+        "w": 336,
+        "h": 336,
+        "thumb": "img/products/bure-5l-sys-stoika-za-chashi-2-t.webp",
+        "alt": "Буре 5 л със стойка за чаши — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/bure-5l-sys-stoika-za-chashi.html"
+  },
+  {
+    "slug": "bure-5-l",
+    "name": "Буре 5 литра",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.020",
+    "price": 66,
+    "cta": "order",
+    "summary": "Дъбово буре с канелка и стойка — за отлежаване и поднасяне на ракия или вино.",
+    "description": "Дъбово буре с обем 5 литра, със стойка.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "280 × 250 × 250 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bure-5-l-1.webp",
+        "w": 800,
+        "h": 600,
+        "thumb": "img/products/bure-5-l-1-t.webp",
+        "alt": "Буре 5 литра"
+      },
+      {
+        "src": "img/products/bure-5-l-2.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-2-t.webp",
+        "alt": "Буре 5 литра — снимка 2"
+      },
+      {
+        "src": "img/products/bure-5-l-3.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-3-t.webp",
+        "alt": "Буре 5 литра — снимка 3"
+      },
+      {
+        "src": "img/products/bure-5-l-4.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-4-t.webp",
+        "alt": "Буре 5 литра — снимка 4"
+      },
+      {
+        "src": "img/products/bure-5-l-5.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-5-t.webp",
+        "alt": "Буре 5 литра — снимка 5"
+      },
+      {
+        "src": "img/products/bure-5-l-6.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-6-t.webp",
+        "alt": "Буре 5 литра — снимка 6"
+      },
+      {
+        "src": "img/products/bure-5-l-7.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-7-t.webp",
+        "alt": "Буре 5 литра — снимка 7"
+      },
+      {
+        "src": "img/products/bure-5-l-8.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-8-t.webp",
+        "alt": "Буре 5 литра — снимка 8"
+      },
+      {
+        "src": "img/products/bure-5-l-9.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5-l-9-t.webp",
+        "alt": "Буре 5 литра — снимка 9"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/bure-5-l.html"
+  },
+  {
+    "slug": "bure-5l-s-2d-gravura",
+    "name": "Буре 5 л с 2D гравюра",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.021",
+    "price": 71,
+    "cta": "order",
+    "summary": "Дъбово буре 5 л с гравиран надпис или мотив по ваш избор.",
+    "description": "Дъбово буре с обем 5 литра и гравюра на челото — надпис, дата, пожелание или мотив по ваш избор. Готовите мотиви са събрани във „Варианти за гравюра“.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "280 × 250 × 250 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bure-5l-s-2d-gravura-1.webp",
+        "w": 800,
+        "h": 600,
+        "thumb": "img/products/bure-5l-s-2d-gravura-1-t.webp",
+        "alt": "Буре 5 л с 2D гравюра"
+      },
+      {
+        "src": "img/products/bure-5l-s-2d-gravura-2.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/bure-5l-s-2d-gravura-2-t.webp",
+        "alt": "Буре 5 л с 2D гравюра — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Варианти за гравюра (PDF)",
+        "href": "docs/varianti-za-gravyura.pdf"
+      },
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/bure-5l-s-2d-gravura.html"
+  },
+  {
+    "slug": "troika-bureta-5l",
+    "name": "Тройка бурета 5 л",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.023",
+    "price": 184,
+    "cta": "order",
+    "summary": "Три дъбови бурета по 5 литра на обща стойка.",
+    "description": "Три дъбови бурета по 5 литра, подредени на обща стойка — общо 15 литра.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "16 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/troika-bureta-5l-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/troika-bureta-5l-1-t.webp",
+        "alt": "Тройка бурета 5 л"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/troika-bureta-5l.html"
+  },
+  {
+    "slug": "troika-bureta-5l-s-gravura-i-stoika-za-chashi",
+    "name": "Тройка бурета 5 л с гравюра и стойка за чаши",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.024",
+    "price": 199,
+    "cta": "order",
+    "summary": "Три бурета по 5 литра с гравюра по ваш избор, на стойка с места за чаши.",
+    "description": "Три дъбови бурета по 5 литра с гравюра на челата по ваш избор, на обща стойка с гнезда за чаши. Готовите мотиви са събрани във „Варианти за гравюра“.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "notes": [
+      "Чашите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "17 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/troika-bureta-5l-s-gravura-i-stoika-za-chashi-1.webp",
+        "w": 336,
+        "h": 361,
+        "thumb": "img/products/troika-bureta-5l-s-gravura-i-stoika-za-chashi-1-t.webp",
+        "alt": "Тройка бурета 5 л с гравюра и стойка за чаши"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Варианти за гравюра (PDF)",
+        "href": "docs/varianti-za-gravyura.pdf"
+      },
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/troika-bureta-5l-s-gravura-i-stoika-za-chashi.html"
+  },
+  {
+    "slug": "bure-5l-s-2d-gravura-i-stoika-za-chashi",
+    "name": "Буре 5 л с 2D гравюра и стойка за чаши",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "10.026",
+    "price": 81,
+    "cta": "order",
+    "summary": "Дъбово буре 5 л с гравюра по ваш избор и стойка за чаши.",
+    "description": "Дъбово буре с обем 5 литра с гравюра на челото — надпис, дата или мотив по ваш избор — върху стойка с гнезда за чаши. Готовите мотиви са събрани във „Варианти за гравюра“.\n\nИзработваме буретата по класическата бъчварска технология, без компромис заради малкия размер: радиално нарязан, естествено сушен дъб (благун), метални обръчи и дървена канелка. Не използваме силикони, пасти и уплътнения.\n\nБурето е напълно функциониращо — ракията, виното или уискито отлежават в него и с времето стават по-меки и ароматни. Преди първото пълнене се закисва с вода; как точно, е описано в „Описание и употреба“.",
+    "features": [],
+    "notes": [
+      "Чашите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bure-5l-s-2d-gravura-i-stoika-za-chashi-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/bure-5l-s-2d-gravura-i-stoika-za-chashi-1-t.webp",
+        "alt": "Буре 5 л с 2D гравюра и стойка за чаши"
+      }
+    ],
+    "videos": [],
+    "documents": [
+      {
+        "title": "Варианти за гравюра (PDF)",
+        "href": "docs/varianti-za-gravyura.pdf"
+      },
+      {
+        "title": "Буретата — описание и употреба (PDF)",
+        "href": "docs/bureta-opisanie-i-upotreba.pdf"
+      }
+    ],
+    "oldUrl": "https://tonkov.eu/product/bure-5l-s-2d-gravura-i-stoika-za-chashi.html"
+  },
+  {
+    "slug": "kofa-za-kladenec-dyb",
+    "name": "Кофа за кладенец — дъб",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "20.001",
+    "price": 71,
+    "cta": "order",
+    "summary": "Дървена кофа за кладенец от дъб, 8 литра.",
+    "description": "Кофа за кладенец от дъб с обем 8 литра, с метални обръчи и дръжка. Правим я по същия начин като буретата — от дъги, стегнати с обръчи.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-1.webp",
+        "w": 800,
+        "h": 600,
+        "thumb": "img/products/kofa-za-kladenec-dyb-1-t.webp",
+        "alt": "Кофа за кладенец — дъб"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-2.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-2-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 2"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-3.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-3-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 3"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-4.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-4-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 4"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-5.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-5-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 5"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-6.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-6-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 6"
+      },
+      {
+        "src": "img/products/kofa-za-kladenec-dyb-7.webp",
+        "w": 500,
+        "h": 375,
+        "thumb": "img/products/kofa-za-kladenec-dyb-7-t.webp",
+        "alt": "Кофа за кладенец — дъб — снимка 7"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kofa-za-kladenec-dyb.html"
+  },
+  {
+    "slug": "kofa-za-kladenec-cham",
+    "name": "Кофа за кладенец — чам",
+    "category": "bureta-i-sadove",
+    "active": true,
+    "sku": "20.002",
+    "price": 63,
+    "cta": "order",
+    "summary": "Дървена кофа за кладенец от чам, 8 литра.",
+    "description": "Кофа за кладенец от чам с обем 8 литра, с метални обръчи и дръжка. Правим я по същия начин като буретата — от дъги, стегнати с обръчи.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kofa-za-kladenec-cham-1.webp",
+        "w": 800,
+        "h": 600,
+        "thumb": "img/products/kofa-za-kladenec-cham-1-t.webp",
+        "alt": "Кофа за кладенец — чам"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kofa-za-kladenec-cham.html"
+  },
+  {
+    "slug": "vartyashto-plato-za-mezeta",
+    "name": "Въртящо се плато за мезета",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "isNew": true,
+    "sku": null,
+    "price": 90,
+    "cta": "order",
+    "summary": "Кръгло въртящо се плато с четири отделения и гравирани ловни мотиви.",
+    "description": "Кръгло плато за мезета върху въртяща се основа — всеки на масата стига до своето, без да се пресяга. Разделено е на четири отделения, а в средата има дръжка за завъртане.\n\nДъното е набрано от парчета с различна посока на шарката и е гравирано с ловни мотиви: глиган, фазан, елени и планински пейзаж. Можем да гравираме и мотиви по ваш избор.",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/vartyashto-plato-za-mezeta-1.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/vartyashto-plato-za-mezeta-1-t.webp",
+        "alt": "Въртящо се плато за мезета с гравирани глиган, фазан и елени, с нож до него за мащаб"
+      },
+      {
+        "src": "img/products/vartyashto-plato-za-mezeta-2.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/vartyashto-plato-za-mezeta-2-t.webp",
+        "alt": "Въртящото се плато отгоре — четирите отделения и гравираните мотиви"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": null
+  },
+  {
+    "slug": "plato-za-mezeta-model-6",
+    "name": "Плато за мезета „Модел 6“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.001",
+    "price": 35,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с резбован кант и отделения.",
+    "description": "Плато за мезета от масивен дъб с резбован кант и отделения за различните мезета.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "380 × 228 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-model-6-1.webp",
+        "w": 640,
+        "h": 480,
+        "thumb": "img/products/plato-za-mezeta-model-6-1-t.webp",
+        "alt": "Плато за мезета „Модел 6“"
+      },
+      {
+        "src": "img/products/plato-za-mezeta-model-6-2.webp",
+        "w": 640,
+        "h": 480,
+        "thumb": "img/products/plato-za-mezeta-model-6-2-t.webp",
+        "alt": "Плато за мезета „Модел 6“ — снимка 2"
+      },
+      {
+        "src": "img/products/plato-za-mezeta-model-6-3.webp",
+        "w": 640,
+        "h": 480,
+        "thumb": "img/products/plato-za-mezeta-model-6-3-t.webp",
+        "alt": "Плато за мезета „Модел 6“ — снимка 3"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-model-6.html"
+  },
+  {
+    "slug": "plato-za-mezeta-model-1",
+    "name": "Плато за мезета „Модел 1“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.006",
+    "price": 28,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с резбован кант.",
+    "description": "Плато за мезета от масивен дъб с фрезован орнамент по ръба.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "240 × 370 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-model-1-1.webp",
+        "w": 640,
+        "h": 469,
+        "thumb": "img/products/plato-za-mezeta-model-1-1-t.webp",
+        "alt": "Плато за мезета „Модел 1“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-model-1.html"
+  },
+  {
+    "slug": "plato-za-mezeta-model-2",
+    "name": "Плато за мезета „Модел 2“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.007",
+    "price": 28,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с резбован кант.",
+    "description": "Плато за мезета от масивен дъб с фрезован орнамент по ръба.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "240 × 380 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-model-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plato-za-mezeta-model-2-1-t.webp",
+        "alt": "Плато за мезета „Модел 2“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-model-2.html"
+  },
+  {
+    "slug": "plato-za-mezeta-model-3",
+    "name": "Плато за мезета „Модел 3“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.010",
+    "price": 21,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с резбован кант.",
+    "description": "Плато за мезета от масивен дъб с фрезован орнамент по ръба.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "290 × 200 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-model-3-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plato-za-mezeta-model-3-1-t.webp",
+        "alt": "Плато за мезета „Модел 3“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-model-3.html"
+  },
+  {
+    "slug": "plato-za-mezeta-gligan",
+    "name": "Плато за мезета „Глиган“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.002",
+    "price": 33,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с гравиран ловен мотив „Глиган“.",
+    "description": "Плато за мезета от масивен дъб с гравиран ловен мотив „Глиган“. Можем да гравираме и картинка, изпратена от вас.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 260 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-gligan-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plato-za-mezeta-gligan-1-t.webp",
+        "alt": "Плато за мезета „Глиган“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-gligan.html"
+  },
+  {
+    "slug": "plato-za-mezeta-gluhar",
+    "name": "Плато за мезета „Глухар“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.003",
+    "price": 33,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с гравиран ловен мотив „Глухар“.",
+    "description": "Плато за мезета от масивен дъб с гравиран ловен мотив „Глухар“. Можем да гравираме и картинка, изпратена от вас.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 260 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-gluhar-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plato-za-mezeta-gluhar-1-t.webp",
+        "alt": "Плато за мезета „Глухар“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-gluhar.html"
+  },
+  {
+    "slug": "plato-za-mezeta-lovci-na-pochivka",
+    "name": "Плато за мезета „Ловци на почивка“",
+    "category": "plata-za-mezeta",
+    "active": true,
+    "sku": "71.004",
+    "price": 33,
+    "cta": "order",
+    "summary": "Дъбово плато за мезета с гравиран ловен мотив „Ловци на почивка“.",
+    "description": "Плато за мезета от масивен дъб с гравиран ловен мотив „Ловци на почивка“. Можем да гравираме и картинка, изпратена от вас.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 260 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plato-za-mezeta-lovci-na-pochivka-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plato-za-mezeta-lovci-na-pochivka-1-t.webp",
+        "alt": "Плато за мезета „Ловци на почивка“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plato-za-mezeta-lovci-na-pochivka.html"
+  },
+  {
+    "slug": "tabela-za-vrata-1-naturalen-dyb",
+    "name": "Табела за врата 1 натурален дъб",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.001",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цвят: натурален дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "260 × 130 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-1-naturalen-dyb-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-1-naturalen-dyb-1-t.webp",
+        "alt": "Табела за врата 1 натурален дъб"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-1-naturalen-dyb.html"
+  },
+  {
+    "slug": "tabela-za-vrata-1-tymen-baic",
+    "name": "Табела за врата 1 тъмен байц",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.002",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цвят: тъмен байц.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "260 × 130 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-1-tymen-baic-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-1-tymen-baic-1-t.webp",
+        "alt": "Табела за врата 1 тъмен байц"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-1-tymen-baic.html"
+  },
+  {
+    "slug": "tabela-za-vrata-2-naturalen-dyb",
+    "name": "Табела за врата 2 натурален дъб",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.003",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цвят: натурален дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "260 × 130 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-2-naturalen-dyb-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-2-naturalen-dyb-1-t.webp",
+        "alt": "Табела за врата 2 натурален дъб"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-2-naturalen-dyb.html"
+  },
+  {
+    "slug": "tabela-za-vrata-2-tymen-baic",
+    "name": "Табела за врата 2 тъмен байц",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.004",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цвят: тъмен байц.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "260 × 130 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-2-tymen-baic-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-2-tymen-baic-1-t.webp",
+        "alt": "Табела за врата 2 тъмен байц"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-2-tymen-baic.html"
+  },
+  {
+    "slug": "tabela-za-vrata-3-naturalen-dyb",
+    "name": "Табела за врата 3 натурален дъб",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.005",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цвят: натурален дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 120 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-3-naturalen-dyb-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-3-naturalen-dyb-1-t.webp",
+        "alt": "Табела за врата 3 натурален дъб"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-3-naturalen-dyb.html"
+  },
+  {
+    "slug": "tabela-za-vrata-4",
+    "name": "Табела за врата 4",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.006",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "175 × 65 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-4-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-4-1-t.webp",
+        "alt": "Табела за врата 4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-4.html"
+  },
+  {
+    "slug": "tabela-za-vrata-5",
+    "name": "Табела за врата 5",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.007",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "230 × 130 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-5-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-5-1-t.webp",
+        "alt": "Табела за врата 5"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-5.html"
+  },
+  {
+    "slug": "tabela-za-vrata-6",
+    "name": "Табела за врата 6",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.008",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "260 × 100 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-6-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-6-1-t.webp",
+        "alt": "Табела за врата 6"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-6.html"
+  },
+  {
+    "slug": "tabela-za-vrata-7",
+    "name": "Табела за врата 7",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.009",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 115 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-7-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-7-1-t.webp",
+        "alt": "Табела за врата 7"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-7.html"
+  },
+  {
+    "slug": "tabela-za-vrata-8",
+    "name": "Табела за врата 8",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.010",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 90 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-8-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-8-1-t.webp",
+        "alt": "Табела за врата 8"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-8.html"
+  },
+  {
+    "slug": "tabela-za-vrata-9",
+    "name": "Табела за врата 9",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.011",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 90 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-9-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-9-1-t.webp",
+        "alt": "Табела за врата 9"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-9.html"
+  },
+  {
+    "slug": "tabela-golyama-12",
+    "name": "Табела 12 голяма",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.012",
+    "price": 40,
+    "cta": "order",
+    "summary": "Голяма дъбова табела с надпис по ваш избор.",
+    "description": "Голяма табела от дъб с надпис по ваш избор — за механа, вила или двор. Изпълнения: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "550 × 350 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-golyama-12-1.webp",
+        "w": 1200,
+        "h": 898,
+        "thumb": "img/products/tabela-golyama-12-1-t.webp",
+        "alt": "Табела 12 голяма"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-golyama-12.html"
+  },
+  {
+    "slug": "tabela-za-vrata-11",
+    "name": "Табела за врата 11",
+    "category": "tabeli",
+    "active": true,
+    "sku": "67.012",
+    "price": 10,
+    "cta": "order",
+    "summary": "Табела за врата от масивен дъб с релефен надпис по ваш избор.",
+    "description": "Табела за врата от масивен дъб с резбован кант и релефен надпис — фамилия, адрес или име на фирма. Надписът е по ваш избор. Цветови варианти: натурален дъб, тъмен байц или шарен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 90 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tabela-za-vrata-11-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tabela-za-vrata-11-1-t.webp",
+        "alt": "Табела за врата 11"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tabela-za-vrata-11.html"
+  },
+  {
+    "slug": "plocha-s-pojelanie",
+    "name": "Плоча с пожелание",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "71.005",
+    "price": 18,
+    "cta": "order",
+    "summary": "Дъбова плоча с пожелание, формат A4.",
+    "description": "Дъбова плоча във формат A4. Надписът, разположението му и гравюрите са по ваш избор.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "210 × 297 (A4)"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plocha-s-pojelanie-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plocha-s-pojelanie-1-t.webp",
+        "alt": "Плоча с пожелание"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plocha-s-pojelanie.html"
+  },
+  {
+    "slug": "plocha-s-pojelanie-2",
+    "name": "Плоча с пожелание",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "71.008",
+    "price": 14,
+    "cta": "order",
+    "summary": "Дъбова плоча с гравирано пожелание.",
+    "description": "Дъбова плоча с резбована украса и гравирано пожелание. Текстът е по ваш избор.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plocha-s-pojelanie-2-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/plocha-s-pojelanie-2-1-t.webp",
+        "alt": "Плоча с пожелание"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plocha-s-pojelanie-2.html"
+  },
+  {
+    "slug": "plocha-s-pojelanie-3",
+    "name": "Плоча с пожелание",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "71.009",
+    "price": 14,
+    "cta": "order",
+    "summary": "Дъбова плоча с гравирано пожелание.",
+    "description": "Дъбова плоча с резбована украса и гравирано пожелание. Текстът е по ваш избор.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plocha-s-pojelanie-3-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plocha-s-pojelanie-3-1-t.webp",
+        "alt": "Плоча с пожелание"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plocha-s-pojelanie-3.html"
+  },
+  {
+    "slug": "plocha-s-pojelanie-i-lazerno-gravirana-snimka",
+    "name": "Плоча с пожелание и лазерно гравирана снимка",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "71.011",
+    "price": 35,
+    "cta": "order",
+    "summary": "Дъбова плоча с пожелание и лазерно гравирана снимка.",
+    "description": "Дъбова плоча с резбована рамка, лазерно гравирана снимка и пожелание под нея — снимката и текстът са ваши.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "285 × 220 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plocha-s-pojelanie-i-lazerno-gravirana-snimka-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plocha-s-pojelanie-i-lazerno-gravirana-snimka-1-t.webp",
+        "alt": "Плоча с пожелание и лазерно гравирана снимка"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plocha-s-pojelanie-i-lazerno-gravirana-snimka.html"
+  },
+  {
+    "slug": "gravura-vyrhu-dvusloina-plastmasa",
+    "name": "Гравюра върху двуслойна пластмаса",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "72.001",
+    "price": null,
+    "cta": "inquiry",
+    "summary": "Гравюра върху двуслойна пластмаса в дъбова рамка.",
+    "description": "Гравюра по ваша снимка или надпис върху двуслойна пластмаса, поставена в рамка от дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "рамка от дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "160 × 130 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,011 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gravura-vyrhu-dvusloina-plastmasa-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/gravura-vyrhu-dvusloina-plastmasa-1-t.webp",
+        "alt": "Гравюра върху двуслойна пластмаса"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/gravura-vyrhu-dvusloina-plastmasa.html"
+  },
+  {
+    "slug": "ramka-za-format-a4",
+    "name": "Рамка за формат А4",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "73.001",
+    "price": 43,
+    "cta": "order",
+    "summary": "Резбована дъбова рамка за формат A4, байц „Палисандър“.",
+    "description": "Резбована рамка от дъб за снимка, грамота или сертификат във формат A4. Цвят: байц „Палисандър“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "410 × 320 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ramka-za-format-a4-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/ramka-za-format-a4-1-t.webp",
+        "alt": "Рамка за формат А4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ramka-za-format-a4.html"
+  },
+  {
+    "slug": "ramka-model-1",
+    "name": "Рамка „Модел 1“",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "73.002",
+    "price": 15,
+    "cta": "order",
+    "summary": "Резбована дъбова рамка.",
+    "description": "Резбована рамка от дъб с тъмен байц.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 205 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ramka-model-1-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/ramka-model-1-1-t.webp",
+        "alt": "Рамка „Модел 1“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ramka-model-1.html"
+  },
+  {
+    "slug": "ramka-za-format-a4-natural",
+    "name": "Рамка за формат А4",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "73.003",
+    "price": 43,
+    "cta": "order",
+    "summary": "Резбована дъбова рамка за формат A4, натурален цвят.",
+    "description": "Резбована рамка от дъб за снимка, грамота или сертификат във формат A4. Цвят: натурален дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "410 × 320 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ramka-za-format-a4-natural-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/ramka-za-format-a4-natural-1-t.webp",
+        "alt": "Рамка за формат А4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ramka-za-format-a4-natural.html"
+  },
+  {
+    "slug": "gravura-vyrhu-dyrvo",
+    "name": "Гравюра върху дърво",
+    "category": "gravyuri-i-ramki",
+    "active": true,
+    "sku": "76.001",
+    "price": 17,
+    "cta": "order",
+    "summary": "Гравюра върху дърво по ваша снимка — със стойка или с магнит.",
+    "description": "Гравираме вашата снимка върху дърво. Изделието е със стойка или с магнит — по ваш избор.\n\nЗа добър резултат ни изпратете снимка с висока резолюция.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Размер",
+        "value": "110 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gravura-vyrhu-dyrvo-1.webp",
+        "w": 640,
+        "h": 476,
+        "thumb": "img/products/gravura-vyrhu-dyrvo-1-t.webp",
+        "alt": "Гравюра върху дърво"
+      },
+      {
+        "src": "img/products/gravura-vyrhu-dyrvo-2.webp",
+        "w": 386,
+        "h": 336,
+        "thumb": "img/products/gravura-vyrhu-dyrvo-2-t.webp",
+        "alt": "Гравюра върху дърво — снимка 2"
+      },
+      {
+        "src": "img/products/gravura-vyrhu-dyrvo-3.webp",
+        "w": 448,
+        "h": 298,
+        "thumb": "img/products/gravura-vyrhu-dyrvo-3-t.webp",
+        "alt": "Гравюра върху дърво — снимка 3"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/gravura-vyrhu-dyrvo.html"
+  },
+  {
+    "slug": "trofei-zybi-gligan-2",
+    "name": "Трофей зъби глиган",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.001",
+    "price": 50,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей — зъби на глиган.",
+    "description": "Резбована дъбова основа за ловен трофей — зъби на глиган. Размерите се съобразяват с вашия трофей.",
+    "features": [],
+    "notes": [
+      "Зъбите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-zybi-gligan-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/trofei-zybi-gligan-2-1-t.webp",
+        "alt": "Трофей зъби глиган"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-zybi-gligan-2.html"
+  },
+  {
+    "slug": "trofei-zybi-gligan",
+    "name": "Трофей зъби глиган",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.002",
+    "price": 50,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей — зъби на глиган.",
+    "description": "Резбована дъбова основа за ловен трофей — зъби на глиган. Размерите се съобразяват с вашия трофей.",
+    "features": [],
+    "notes": [
+      "Зъбите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-zybi-gligan-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/trofei-zybi-gligan-1-t.webp",
+        "alt": "Трофей зъби глиган"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-zybi-gligan.html"
+  },
+  {
+    "slug": "trofei-sryndak",
+    "name": "Трофей сръндак",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.003",
+    "price": 33,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей от сръндак.",
+    "description": "Резбована дъбова основа за трофей от сръндак.",
+    "features": [],
+    "notes": [
+      "Черепът не влиза в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-sryndak-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/trofei-sryndak-1-t.webp",
+        "alt": "Трофей сръндак"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-sryndak.html"
+  },
+  {
+    "slug": "trofei-sryndak-cherep",
+    "name": "Трофей сръндак череп",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.004",
+    "price": 35,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей от сръндак.",
+    "description": "Резбована дъбова основа за трофей от сръндак с череп. Размерите се съобразяват с вашия трофей.",
+    "features": [],
+    "notes": [
+      "Черепът не влиза в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-sryndak-cherep-1.webp",
+        "w": 335,
+        "h": 497,
+        "thumb": "img/products/trofei-sryndak-cherep-1-t.webp",
+        "alt": "Трофей сръндак череп"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-sryndak-cherep.html"
+  },
+  {
+    "slug": "trofei-zybi-gligan-3",
+    "name": "Трофей зъби глиган",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.005",
+    "price": 56,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей — зъби на глиган.",
+    "description": "Резбована дъбова основа за ловен трофей — зъби на глиган. Размерите се съобразяват с вашия трофей.",
+    "features": [],
+    "notes": [
+      "Зъбите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-zybi-gligan-3-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/trofei-zybi-gligan-3-1-t.webp",
+        "alt": "Трофей зъби глиган"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-zybi-gligan-3.html"
+  },
+  {
+    "slug": "trofei-gligan-s-ramka-za-sertifikat",
+    "name": "Трофей глиган с рамка за сертификат",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.006",
+    "price": 89,
+    "cta": "order",
+    "summary": "Резбована основа за глигански зъби с рамка за сертификата на трофея.",
+    "description": "Резбована дъбова основа за глигански зъби, съчетана с рамка за сертификата на трофея.",
+    "features": [],
+    "notes": [
+      "Зъбите не влизат в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "350 × 750 мм"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-gligan-s-ramka-za-sertifikat-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/trofei-gligan-s-ramka-za-sertifikat-1-t.webp",
+        "alt": "Трофей глиган с рамка за сертификат"
+      },
+      {
+        "src": "img/products/trofei-gligan-s-ramka-za-sertifikat-2.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/trofei-gligan-s-ramka-za-sertifikat-2-t.webp",
+        "alt": "Трофей глиган с рамка за сертификат — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-gligan-s-ramka-za-sertifikat.html"
+  },
+  {
+    "slug": "trofei-sryndak-cherep-2",
+    "name": "Трофей сръндак череп 2",
+    "category": "lovni-trofei",
+    "active": true,
+    "sku": "60.007",
+    "price": 38,
+    "cta": "order",
+    "summary": "Резбована дъбова основа за трофей от сръндак.",
+    "description": "Резбована дъбова основа за трофей от сръндак с череп. Размерите се съобразяват с вашия трофей.",
+    "features": [],
+    "notes": [
+      "Черепът не влиза в комплекта."
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/trofei-sryndak-cherep-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/trofei-sryndak-cherep-2-1-t.webp",
+        "alt": "Трофей сръндак череп 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/trofei-sryndak-cherep-2.html"
+  },
+  {
+    "slug": "cvetq",
+    "name": "Цветя",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "62.005",
+    "price": 10,
+    "cta": "order",
+    "summary": "Резбовано пано „Цветя“ от орех или дъб.",
+    "description": "Резбовано пано „Цветя“ от орех или дъб, изработено на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех или дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "150 × 160 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/cvetq-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/cvetq-1-t.webp",
+        "alt": "Цветя"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/cvetq.html"
+  },
+  {
+    "slug": "arhangel-mihail",
+    "name": "Архангел Михаил",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.002",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Архангел Михаил“ от орех.",
+    "description": "Резбована икона „Архангел Михаил“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "140 × 200 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/arhangel-mihail-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/arhangel-mihail-1-t.webp",
+        "alt": "Архангел Михаил"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/arhangel-mihail.html"
+  },
+  {
+    "slug": "bogorodica-s-mladeneca-2",
+    "name": "Богородица с Младенеца",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.003",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Богородица с Младенеца“ от орех.",
+    "description": "Резбована икона „Богородица с Младенеца“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "150 × 195 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bogorodica-s-mladeneca-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/bogorodica-s-mladeneca-2-1-t.webp",
+        "alt": "Богородица с Младенеца"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/bogorodica-s-mladeneca-2.html"
+  },
+  {
+    "slug": "sveti-georgi",
+    "name": "Свети Георги",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.005",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Свети Георги“ от орех.",
+    "description": "Резбована икона „Свети Георги“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "145 × 220 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveti-georgi-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveti-georgi-1-t.webp",
+        "alt": "Свети Георги"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveti-georgi.html"
+  },
+  {
+    "slug": "isus-hristos-3",
+    "name": "Исус Христос",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.007",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Исус Христос“ от орех.",
+    "description": "Резбована икона „Исус Христос“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/isus-hristos-3-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/isus-hristos-3-1-t.webp",
+        "alt": "Исус Христос"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/isus-hristos-3.html"
+  },
+  {
+    "slug": "ikonostas-bogorodica-s-mladeneca",
+    "name": "Иконостас — Богородица с Младенеца",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.009",
+    "price": 43,
+    "cta": "order",
+    "summary": "Домашен иконостас от орех с резбована икона „Богородица с Младенеца“.",
+    "description": "Домашен иконостас от орех с резбована икона „Богородица с Младенеца“ и поставка за кандило.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 250 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ikonostas-bogorodica-s-mladeneca-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/ikonostas-bogorodica-s-mladeneca-1-t.webp",
+        "alt": "Иконостас — Богородица с Младенеца"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ikonostas-bogorodica-s-mladeneca.html"
+  },
+  {
+    "slug": "ikonostas-sveti-georgi",
+    "name": "Иконостас — Свети Георги",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.010",
+    "price": 43,
+    "cta": "order",
+    "summary": "Домашен иконостас от орех с резбована икона „Свети Георги“.",
+    "description": "Домашен иконостас от орех с резбована икона „Свети Георги“ и поставка за кандило.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "250 × 250 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ikonostas-sveti-georgi-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/ikonostas-sveti-georgi-1-t.webp",
+        "alt": "Иконостас — Свети Георги"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ikonostas-sveti-georgi.html"
+  },
+  {
+    "slug": "sveti-mina",
+    "name": "Свети Мина",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.011",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Свети Мина“ от орех.",
+    "description": "Резбована икона „Свети Мина“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "130 × 188 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveti-mina-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveti-mina-1-t.webp",
+        "alt": "Свети Мина"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveti-mina.html"
+  },
+  {
+    "slug": "plochka-deva-mariq",
+    "name": "Плочка Дева Мария",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.012",
+    "price": 7,
+    "cta": "order",
+    "summary": "Малка плочка с образа на Дева Мария.",
+    "description": "Малка резбована плочка с образа на Дева Мария от орех или дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех или дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "105 × 70 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,06 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/plochka-deva-mariq-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/plochka-deva-mariq-1-t.webp",
+        "alt": "Плочка Дева Мария"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/plochka-deva-mariq.html"
+  },
+  {
+    "slug": "dyrven-kryst-1",
+    "name": "Дървен кръст 1",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.013",
+    "price": 7,
+    "cta": "order",
+    "summary": "Малък резбован кръст от орех или дъб.",
+    "description": "Малък резбован кръст от орех или дъб. По желание го байцваме в цвят „Палисандър“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех или дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "85 × 55 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,015 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/dyrven-kryst-1-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/dyrven-kryst-1-1-t.webp",
+        "alt": "Дървен кръст 1"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/dyrven-kryst-1.html"
+  },
+  {
+    "slug": "dyrven-kryst-2",
+    "name": "Дървен кръст 2",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.014",
+    "price": 7,
+    "cta": "order",
+    "summary": "Малък резбован кръст от орех или дъб.",
+    "description": "Малък резбован кръст от орех или дъб. По желание го байцваме в цвят „Палисандър“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех или дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 50 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,012 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/dyrven-kryst-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/dyrven-kryst-2-1-t.webp",
+        "alt": "Дървен кръст 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/dyrven-kryst-2.html"
+  },
+  {
+    "slug": "ikonostas-arhangel-mihail",
+    "name": "Иконостас Архангел Михаил",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "65.015",
+    "price": 43,
+    "cta": "order",
+    "summary": "Домашен иконостас от орех с резбована икона „Архангел Михаил“.",
+    "description": "Домашен иконостас от орех с резбована икона „Архангел Михаил“ и поставка за кандило.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "310 × 170 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/ikonostas-arhangel-mihail-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/ikonostas-arhangel-mihail-1-t.webp",
+        "alt": "Иконостас Архангел Михаил"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/ikonostas-arhangel-mihail.html"
+  },
+  {
+    "slug": "sveti-nikolai-chudotvorec",
+    "name": "Свети Николай Чудотворец",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "68.015",
+    "price": 23,
+    "cta": "order",
+    "summary": "Резбована икона „Свети Николай Чудотворец“ от орех.",
+    "description": "Резбована икона „Свети Николай Чудотворец“ от орех, изработена на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "140 × 200 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveti-nikolai-chudotvorec-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/sveti-nikolai-chudotvorec-1-t.webp",
+        "alt": "Свети Николай Чудотворец"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveti-nikolai-chudotvorec.html"
+  },
+  {
+    "slug": "bylgarska-devoika",
+    "name": "Българска девойка",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "74.001",
+    "price": 34,
+    "cta": "order",
+    "summary": "Резбовано пано „Българска девойка“ от орех.",
+    "description": "Резбовано пано „Българска девойка“ от орех, изработено на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "310 × 185 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/bylgarska-devoika-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/bylgarska-devoika-1-t.webp",
+        "alt": "Българска девойка"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/bylgarska-devoika.html"
+  },
+  {
+    "slug": "jar-ptica",
+    "name": "Жар птица",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "74.003",
+    "price": 15,
+    "cta": "order",
+    "summary": "Резбовано пано „Жар птица“ от орех.",
+    "description": "Резбовано пано „Жар птица“ от орех, изработено на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "280 × 180 × 10 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/jar-ptica-1.webp",
+        "w": 332,
+        "h": 455,
+        "thumb": "img/products/jar-ptica-1-t.webp",
+        "alt": "Жар птица"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/jar-ptica.html"
+  },
+  {
+    "slug": "jar-ptica2",
+    "name": "Жар птица",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "74.005",
+    "price": 15,
+    "cta": "order",
+    "summary": "Резбовано пано „Жар птица“ от дъб.",
+    "description": "Резбовано пано „Жар птица“ от дъб, изработено на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "220 × 300 × 10 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/jar-ptica2-1.webp",
+        "w": 448,
+        "h": 312,
+        "thumb": "img/products/jar-ptica2-1-t.webp",
+        "alt": "Жар птица"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/jar-ptica2.html"
+  },
+  {
+    "slug": "angel-s-lyra",
+    "name": "Ангел с лира",
+    "category": "ikoni-i-pana",
+    "active": true,
+    "sku": "74.006",
+    "price": 35,
+    "cta": "order",
+    "summary": "Резбовано пано „Ангел с лира“ от дъб.",
+    "description": "Резбовано пано „Ангел с лира“ от дъб, изработено на CNC фреза.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "600 × 200 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/angel-s-lyra-1.webp",
+        "w": 1200,
+        "h": 689,
+        "thumb": "img/products/angel-s-lyra-1-t.webp",
+        "alt": "Ангел с лира"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/angel-s-lyra.html"
+  },
+  {
+    "slug": "kutiq-s-pojelanie",
+    "name": "Кутия с пожелание",
+    "category": "drugi",
+    "active": true,
+    "sku": "77.001",
+    "price": 20,
+    "cta": "order",
+    "summary": "Дървена кутия за бутилка с гравирано пожелание по ваш избор.",
+    "description": "Дървена кутия за бутилка с капак, върху който гравираме пожелание по ваш избор. Стандартно е от чам; по желание я изработваме и от друг материал.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам (по желание на клиента и друг материал)"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 100 × 100 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kutiq-s-pojelanie-1.webp",
+        "w": 624,
+        "h": 343,
+        "thumb": "img/products/kutiq-s-pojelanie-1-t.webp",
+        "alt": "Кутия с пожелание"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kutiq-s-pojelanie.html"
+  },
+  {
+    "slug": "kutiq-za-vino-nazdrave",
+    "name": "Кутия за вино „Наздраве“",
+    "category": "drugi",
+    "active": true,
+    "sku": "77.002",
+    "price": 20,
+    "cta": "order",
+    "summary": "Дървена кутия за бутилка вино с гравиран мотив „Наздраве“.",
+    "description": "Дървена кутия за бутилка вино с капак и гравиран мотив „Наздраве“. Стандартно е от чам; по желание я изработваме и от друг материал.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам (по желание на клиента и друг материал)"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 100 × 100 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kutiq-za-vino-nazdrave-1.webp",
+        "w": 640,
+        "h": 479,
+        "thumb": "img/products/kutiq-za-vino-nazdrave-1-t.webp",
+        "alt": "Кутия за вино „Наздраве“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kutiq-za-vino-nazdrave.html"
+  },
+  {
+    "slug": "kutiq-za-vino-grozdoberachka",
+    "name": "Кутия за вино „Гроздоберачка“",
+    "category": "drugi",
+    "active": true,
+    "sku": "77.003",
+    "price": 20,
+    "cta": "order",
+    "summary": "Дървена кутия за бутилка вино с гравиран мотив „Гроздоберачка“.",
+    "description": "Дървена кутия за бутилка вино с капак и гравиран мотив „Гроздоберачка“. Стандартно е от чам; по желание я изработваме и от друг материал.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам (по желание на клиента и друг материал)"
+      },
+      {
+        "label": "Размер",
+        "value": "330 × 100 × 100 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kutiq-za-vino-grozdoberachka-1.webp",
+        "w": 624,
+        "h": 343,
+        "thumb": "img/products/kutiq-za-vino-grozdoberachka-1-t.webp",
+        "alt": "Кутия за вино „Гроздоберачка“"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kutiq-za-vino-grozdoberachka.html"
+  },
+  {
+    "slug": "stelaj-za-med",
+    "name": "Стелаж за мед",
+    "category": "drugi",
+    "active": true,
+    "sku": "32.008",
+    "price": 44,
+    "cta": "order",
+    "summary": "Стелаж за мед от чам.",
+    "description": "Стелаж от чам за буркани с мед, с мотив „пчелна пита“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам"
+      },
+      {
+        "label": "Размер",
+        "value": "650 × 410 × 265 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/stelaj-za-med-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/stelaj-za-med-1-t.webp",
+        "alt": "Стелаж за мед"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/stelaj-za-med.html"
+  },
+  {
+    "slug": "chesalo-za-gryb",
+    "name": "Чесало за гръб",
+    "category": "drugi",
+    "active": true,
+    "sku": "62.007",
+    "price": 10,
+    "cta": "order",
+    "summary": "Чесало за гръб от дъб.",
+    "description": "Чесало за гръб от дъб с резбована дръжка.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "400 × 40 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/chesalo-za-gryb-1.webp",
+        "w": 448,
+        "h": 197,
+        "thumb": "img/products/chesalo-za-gryb-1-t.webp",
+        "alt": "Чесало за гръб"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/chesalo-za-gryb.html"
+  },
+  {
+    "slug": "stoika-za-vydici",
+    "name": "Стойка за въдици",
+    "category": "drugi",
+    "active": true,
+    "sku": "62.009",
+    "price": 28,
+    "cta": "order",
+    "summary": "Стойка за въдици от чам.",
+    "description": "Стойка от чам за подреждане и съхранение на въдици.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам"
+      },
+      {
+        "label": "Размер",
+        "value": "440 × 235 × 400 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "5 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/stoika-za-vydici-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/stoika-za-vydici-1-t.webp",
+        "alt": "Стойка за въдици"
+      },
+      {
+        "src": "img/products/stoika-za-vydici-2.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/stoika-za-vydici-2-t.webp",
+        "alt": "Стойка за въдици — снимка 2"
+      },
+      {
+        "src": "img/products/stoika-za-vydici-3.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/stoika-za-vydici-3-t.webp",
+        "alt": "Стойка за въдици — снимка 3"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/stoika-za-vydici.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-1",
+    "name": "Свещник Мотив 1",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.001",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 1.",
+    "description": "Ажурен свещник от бук с келтски мотив 1. На снимката е в цвят „натурално дърво“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-1-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-1-1-t.webp",
+        "alt": "Свещник Мотив 1"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-1.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-2",
+    "name": "Свещник Мотив 2",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.002",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 2.",
+    "description": "Ажурен свещник от бук с келтски мотив 2. На снимката е в цвят „череша“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-2-1-t.webp",
+        "alt": "Свещник Мотив 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-2.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-3",
+    "name": "Свещник Мотив 3",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.003",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 3.",
+    "description": "Ажурен свещник от бук с келтски мотив 3. На снимката е в цвят „натурално дърво“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-3-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-3-1-t.webp",
+        "alt": "Свещник Мотив 3"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-3.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-4",
+    "name": "Свещник Мотив 4",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.004",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 4.",
+    "description": "Ажурен свещник от бук с келтски мотив 4. На снимката е в цвят „тъмен“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-4-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-4-1-t.webp",
+        "alt": "Свещник Мотив 4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-4.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-5",
+    "name": "Свещник Мотив 5",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.005",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 5.",
+    "description": "Ажурен свещник от бук с келтски мотив 5. На снимката е в цвят „тъмен“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-5-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-5-1-t.webp",
+        "alt": "Свещник Мотив 5"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-5.html"
+  },
+  {
+    "slug": "sveshtnik-motiv-6",
+    "name": "Свещник Мотив 6",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.006",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен свещник от бук с келтски мотив 6.",
+    "description": "Ажурен свещник от бук с келтски мотив 6. На снимката е в цвят „череша“. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "80 × 80 × 80 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/sveshtnik-motiv-6-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/sveshtnik-motiv-6-1-t.webp",
+        "alt": "Свещник Мотив 6"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/sveshtnik-motiv-6.html"
+  },
+  {
+    "slug": "molivnik",
+    "name": "Моливник",
+    "category": "drugi",
+    "active": true,
+    "sku": "69.007",
+    "price": 11,
+    "cta": "order",
+    "summary": "Ажурен моливник от бук с келтски мотив.",
+    "description": "Ажурен моливник от бук с келтски мотив. На снимката е в тъмен цвят. Предлага се в три нюанса: натурално дърво, череша и тъмен.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "бук"
+      },
+      {
+        "label": "Размер",
+        "value": "70 × 70 × 105 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,08 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/molivnik-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/molivnik-1-t.webp",
+        "alt": "Моливник"
+      },
+      {
+        "src": "img/products/molivnik-2.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/molivnik-2-t.webp",
+        "alt": "Моливник — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/molivnik.html"
+  },
+  {
+    "slug": "inkrustirana-masa-za-kafe",
+    "name": "Инкрустирана маса за кафе",
+    "category": "drugi",
+    "active": true,
+    "sku": "75.001",
+    "price": 143,
+    "cta": "order",
+    "summary": "Маса за кафе от чам и дъб с инкрустиран плот.",
+    "description": "Маса за кафе от чам и дъб с инкрустиран орнамент на плота.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам и дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "660 × 440 × 470 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "10 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-1-t.webp",
+        "alt": "Инкрустирана маса за кафе"
+      },
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-2.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-2-t.webp",
+        "alt": "Инкрустирана маса за кафе — снимка 2"
+      },
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-3.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-3-t.webp",
+        "alt": "Инкрустирана маса за кафе — снимка 3"
+      },
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-4.webp",
+        "w": 323,
+        "h": 448,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-4-t.webp",
+        "alt": "Инкрустирана маса за кафе — снимка 4"
+      },
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-5.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-5-t.webp",
+        "alt": "Инкрустирана маса за кафе — снимка 5"
+      },
+      {
+        "src": "img/products/inkrustirana-masa-za-kafe-6.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/inkrustirana-masa-za-kafe-6-t.webp",
+        "alt": "Инкрустирана маса за кафе — снимка 6"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/inkrustirana-masa-za-kafe.html"
+  },
+  {
+    "slug": "boken",
+    "name": "Бокен",
+    "category": "drugi",
+    "active": true,
+    "sku": "78.001",
+    "price": 23,
+    "cta": "order",
+    "summary": "Бокен — дървен тренировъчен меч от дъб или ясен.",
+    "description": "Бокен — дървен тренировъчен меч от дъб или ясен. Можем да го изработим и по спецификация на клиента.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб, ясен"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/boken-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/boken-1-t.webp",
+        "alt": "Бокен"
+      },
+      {
+        "src": "img/products/boken-2.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/boken-2-t.webp",
+        "alt": "Бокен — снимка 2"
+      },
+      {
+        "src": "img/products/boken-3.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/boken-3-t.webp",
+        "alt": "Бокен — снимка 3"
+      },
+      {
+        "src": "img/products/boken-4.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/boken-4-t.webp",
+        "alt": "Бокен — снимка 4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/boken.html"
+  },
+  {
+    "slug": "kluchodyrjatel-aikido",
+    "name": "Ключодържател Айкидо",
+    "category": "drugi",
+    "active": true,
+    "sku": "78.002",
+    "price": 5,
+    "cta": "order",
+    "summary": "Дъбов ключодържател „Айкидо“.",
+    "description": "Ключодържател от дъб с резбовани йероглифи „айкидо“.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/kluchodyrjatel-aikido-1.webp",
+        "w": 336,
+        "h": 448,
+        "thumb": "img/products/kluchodyrjatel-aikido-1-t.webp",
+        "alt": "Ключодържател Айкидо"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/kluchodyrjatel-aikido.html"
+  },
+  {
+    "slug": "tanto",
+    "name": "Танто",
+    "category": "drugi",
+    "active": true,
+    "sku": "78.003",
+    "price": 10,
+    "cta": "order",
+    "summary": "Танто — дървен тренировъчен нож от дъб.",
+    "description": "Танто — дървен тренировъчен нож от дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tanto-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tanto-1-t.webp",
+        "alt": "Танто"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tanto.html"
+  },
+  {
+    "slug": "tanto-2",
+    "name": "Танто",
+    "category": "drugi",
+    "active": true,
+    "sku": "78.004",
+    "price": 10,
+    "cta": "order",
+    "summary": "Танто — дървен тренировъчен нож от дъб.",
+    "description": "Танто — дървен тренировъчен нож от дъб.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,3 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/tanto-2-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/tanto-2-1-t.webp",
+        "alt": "Танто"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/tanto-2.html"
+  },
+  {
+    "slug": "darven-kupol-shatra",
+    "name": "Дървен купол (шатра)",
+    "category": "drugi",
+    "active": true,
+    "sku": "79.001",
+    "price": null,
+    "priceNote": "По споразумение",
+    "cta": "inquiry",
+    "summary": "Дървена куполна конструкция за навес, оранжерия или зимна градина.",
+    "description": "Куполна конструкция от чам. Подходяща е за навес на открито, оранжерия, зимна градина и др. Размерите се уточняват по проект.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "чам"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/darven-kupol-shatra-1.webp",
+        "w": 703,
+        "h": 937,
+        "thumb": "img/products/darven-kupol-shatra-1-t.webp",
+        "alt": "Дървен купол (шатра)"
+      },
+      {
+        "src": "img/products/darven-kupol-shatra-2.webp",
+        "w": 569,
+        "h": 759,
+        "thumb": "img/products/darven-kupol-shatra-2-t.webp",
+        "alt": "Дървен купол (шатра) — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/darven-kupol-shatra.html"
+  },
+  {
+    "slug": "rogatina-kopie",
+    "name": "Рогатина, копие",
+    "category": "drugi",
+    "active": true,
+    "sku": "62.010",
+    "price": null,
+    "cta": "inquiry",
+    "summary": "Рогатина (ловно копие) с дъбова дръжка.",
+    "description": "Рогатина — ловно копие с дъбова дръжка.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Тегло",
+        "value": "6 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/rogatina-kopie-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/rogatina-kopie-1-t.webp",
+        "alt": "Рогатина, копие"
+      },
+      {
+        "src": "img/products/rogatina-kopie-2.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/rogatina-kopie-2-t.webp",
+        "alt": "Рогатина, копие — снимка 2"
+      },
+      {
+        "src": "img/products/rogatina-kopie-3.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/rogatina-kopie-3-t.webp",
+        "alt": "Рогатина, копие — снимка 3"
+      },
+      {
+        "src": "img/products/rogatina-kopie-4.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/rogatina-kopie-4-t.webp",
+        "alt": "Рогатина, копие — снимка 4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/rogatina-kopie.html"
+  },
+  {
+    "slug": "lovna-zakachalka",
+    "name": "Ловна закачалка",
+    "category": "drugi",
+    "active": true,
+    "sku": "70.001",
+    "price": 45,
+    "cta": "order",
+    "summary": "Дъбова закачалка с релефни ловни мотиви.",
+    "description": "Закачалка за стена от масивен дъб с релефни ловни мотиви.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "545 × 150 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1,2 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/lovna-zakachalka-1.webp",
+        "w": 448,
+        "h": 336,
+        "thumb": "img/products/lovna-zakachalka-1-t.webp",
+        "alt": "Ловна закачалка"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/lovna-zakachalka.html"
+  },
+  {
+    "slug": "gluhari",
+    "name": "Глухари",
+    "category": "drugi",
+    "active": true,
+    "sku": "74.002",
+    "price": 92,
+    "cta": "order",
+    "summary": "Резбовано пано „Глухари“ от орех.",
+    "description": "Резбовано пано „Глухари“ от орех — ажурна дърворезба с глухари сред листа.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "орех"
+      },
+      {
+        "label": "Размер",
+        "value": "400 × 300 × 20 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "0,7 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gluhari-1.webp",
+        "w": 640,
+        "h": 458,
+        "thumb": "img/products/gluhari-1-t.webp",
+        "alt": "Глухари"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/gluhari.html"
+  },
+  {
+    "slug": "gluhari-v-ramka",
+    "name": "Глухари в рамка",
+    "category": "drugi",
+    "active": true,
+    "sku": "74.004",
+    "price": 107,
+    "cta": "order",
+    "summary": "Резбовано пано „Глухари“ от дъб, в рамка.",
+    "description": "Резбовано пано „Глухари“ от дъб, в рамка.",
+    "features": [],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "дъб"
+      },
+      {
+        "label": "Размер",
+        "value": "410 × 290 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gluhari-v-ramka-1.webp",
+        "w": 448,
+        "h": 301,
+        "thumb": "img/products/gluhari-v-ramka-1-t.webp",
+        "alt": "Глухари в рамка"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://tonkov.eu/product/gluhari-v-ramka.html"
+  }
+]

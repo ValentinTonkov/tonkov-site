@@ -1,0 +1,14 @@
+{# Recipe teaser card (home page, autoclave page). Expects: recipe #}
+<article class="recipe-teaser">
+  <a class="recipe-teaser__media" href="/autoclave/recipes.html#{{ recipe.slug }}" tabindex="-1" aria-hidden="true">
+    {% if recipe.images[0] %}<img src="/{{ recipe.images[0].thumb }}" alt="" width="{{ recipe.images[0].w }}" height="{{ recipe.images[0].h }}" loading="lazy" decoding="async">{% endif %}
+  </a>
+  <div class="recipe-teaser__body">
+    <p class="recipe-teaser__meta">{{ recipe.categoryName }}</p>
+    <h3 class="recipe-teaser__title"><a class="stretched-link" href="/autoclave/recipes.html#{{ recipe.slug }}">{{ recipe.name }}</a></h3>
+    <ul class="chips" aria-label="Режим">
+      <li><i class="bi bi-thermometer-half" aria-hidden="true"></i> {{ recipe.temperature }} °C</li>
+      <li><i class="bi bi-clock" aria-hidden="true"></i> {{ recipe.time }} мин</li>
+    </ul>
+  </div>
+</article>

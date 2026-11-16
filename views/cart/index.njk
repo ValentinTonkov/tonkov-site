@@ -1,0 +1,94 @@
+{#
+  Cart + order form  →  Yii2: views/cart/index.php (old URL /cart/index.html is kept)
+  PROTOTYPE: rows are rendered by site.js from localStorage. In Yii2 render the rows on the server
+  (the <tr> markup is in site.js → renderCart) and post the form to the order action.
+#}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Количка' %}
+{% set crumbs = [{ label: 'Количка' }] %}
+
+{% block content %}
+<div class="container pb-5 mb-lg-5">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-2">Количка</h1>
+  </header>
+
+  <div class="cart-empty" data-cart-empty>
+    <i class="bi bi-bag" aria-hidden="true"></i>
+    <h2 class="h3 mt-3">Количката е празна.</h2>
+    <p class="text-secondary mb-4">Разгледайте направленията и добавете нещо.</p>
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      {% for c in categories %}{% if not c.parent %}<a class="btn btn-outline-dark" href="{{ c.url }}">{{ c.name }}</a>{% endif %}{% endfor %}
+    </div>
+  </div>
+
+  <div class="row gy-5" data-cart hidden>
+    <div class="col-lg-7">
+      <div class="table-responsive">
+        <table class="table cart-table">
+          <thead><tr><th scope="col">Продукт</th><th scope="col">Цена</th><th scope="col">Брой</th><th scope="col" class="text-end">Общо</th><th scope="col"><span class="visually-hidden">Премахни</span></th></tr></thead>
+          <tbody data-cart-body></tbody>
+        </table>
+      </div>
+      <div class="cart-total"><span>Общо (без доставка)</span><strong data-cart-total>0 €</strong></div>
+      <p class="small text-secondary">{{ site.delivery }}. Цената на доставката е по тарифата на Еконт.</p>
+    </div>
+
+    <div class="col-lg-5">
+      {# Yii2: ActiveForm, model OrderForm #}
+      <form id="order-form" class="form-card" action="/cart/index.html" method="post" novalidate data-demo-form>
+        <h2 class="h3 mb-4">Данни за поръчката</h2>
+        <input type="hidden" name="OrderForm[items]" data-cart-field>
+        <div class="row g-3">
+          <div class="col-12 field-orderform-name required">
+            <label class="form-label" for="orderform-name">Име и фамилия</label>
+            <input type="text" id="orderform-name" class="form-control" name="OrderForm[name]" autocomplete="name" required aria-required="true">
+            <div class="invalid-feedback">Моля, въведете име.</div>
+          </div>
+          <div class="col-sm-6 field-orderform-phone required">
+            <label class="form-label" for="orderform-phone">Телефон</label>
+            <input type="tel" id="orderform-phone" class="form-control" name="OrderForm[phone]" autocomplete="tel" required aria-required="true">
+            <div class="invalid-feedback">Моля, въведете телефон.</div>
+          </div>
+          <div class="col-sm-6 field-orderform-email">
+            <label class="form-label" for="orderform-email">Имейл</label>
+            <input type="email" id="orderform-email" class="form-control" name="OrderForm[email]" autocomplete="email">
+          </div>
+          <div class="col-12 field-orderform-address required">
+            <label class="form-label" for="orderform-address">Офис на Еконт или адрес за доставка</label>
+            <input type="text" id="orderform-address" class="form-control" name="OrderForm[address]" required aria-required="true">
+            <div class="invalid-feedback">Моля, посочете къде да изпратим поръчката.</div>
+          </div>
+          <div class="col-12 field-orderform-payment">
+            <span class="form-label d-block">Плащане</span>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="OrderForm[payment]" id="orderform-payment-cod" value="cod" checked>
+              <label class="form-check-label" for="orderform-payment-cod">Наложен платеж</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="OrderForm[payment]" id="orderform-payment-bank" value="bank">
+              <label class="form-check-label" for="orderform-payment-bank">Банков превод</label>
+            </div>
+          </div>
+          <div class="col-12 field-orderform-note">
+            <label class="form-label" for="orderform-note">Бележка — надпис за гравюра, въпроси</label>
+            <textarea id="orderform-note" class="form-control" name="OrderForm[note]" rows="3"></textarea>
+          </div>
+          <div class="col-12 field-orderform-agree required">
+            <div class="form-check">
+              <input type="checkbox" id="orderform-agree" class="form-check-input" name="OrderForm[agree]" value="1" required aria-required="true">
+              <label class="form-check-label" for="orderform-agree">Съгласен съм с <a href="/privacy-policy.html">правилата за лични данни</a> и <a href="/order.html">условията за поръчка</a>.</label>
+              <div class="invalid-feedback">Необходимо е съгласие.</div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-lg w-100">Изпрати поръчката</button>
+            <div class="alert alert-warning form-demo" role="status" hidden>Това е прототип — поръчката не е изпратена. Моля, обадете се на {{ site.contacts[0].phone }}.</div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

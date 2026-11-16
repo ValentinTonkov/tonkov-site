@@ -1,0 +1,84 @@
+{# About  →  Yii2: views/site/about.php #}
+{% extends "layouts/main.njk" %}
+{% set about = site.home.about %}
+{% set metaTitle = 'За нас — семейна работилница от 1992 г.' %}
+{% set metaDescription = 'ЕТ „Боян Тонков“ е малка семейна фирма от Караисен, създадена през 1992 г.: изделия от дърво, автоклави, системи за мониторинг и контрол, пелетни котли и горелки.' %}
+{% set metaImage = 'img/site/working_welding_autoclave.jpg' %}
+{% set crumbs = [{ label: 'За нас' }] %}
+
+{% block content %}
+<div class="container">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-1">{{ about.title }}</h1>
+    <p class="lead">{{ site.company }} е малка семейна фирма от село Караисен, {{ site.region }}. Създадена е през {{ site.founded }} г.</p>
+  </header>
+</div>
+
+<section class="section-paper pt-4">
+  <div class="container">
+    <div class="split">
+      <div class="split__media split__media--wide reveal">{{ picture('working_welding_autoclave', about.chapters[0].alt, { sizes: '(min-width: 992px) 50vw, 100vw', eager: true }) }}</div>
+      <div class="prose">
+        <p class="eyebrow">Кои сме</p>
+        <h2 class="display-3">Дърво, метал и електроника — под един покрив.</h2>
+        <p>Произвеждаме малки партиди прецизно изработени бъчварски съдове по класическата технология, както и 2D и 3D изделия от дърво на CNC фреза — по каталог или по ваша заявка.</p>
+        <p>Наред с дървото разработваме уреди за наблюдение и управление от разстояние, пелетни горелки и котли. А автоклавът ни за домашни консерви днес е най-търсеното ни изделие.</p>
+        <p>Общото между всичко това е начинът, по който работим: проектираме, изработваме и поддържаме сами.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-night">
+  <div class="container">
+    <p class="eyebrow reveal">Как работим</p>
+    <h2 class="display-2 reveal">Четири неща, от които не отстъпваме.</h2>
+    <ul class="principles list-unstyled mt-5">
+      {% for p in about.principles %}
+      <li class="principles__item reveal"><h3>{{ p.title }}</h3><p>{{ p.text }}</p></li>
+      {% endfor %}
+    </ul>
+
+    <div class="row g-4 mt-5 pt-lg-4">
+      {% for c in about.chapters.slice(1) %}
+      <div class="col-md-6">
+        <div class="chapter reveal">
+          <div class="chapter__media">{{ picture(c.image, c.alt, { sizes: '(min-width: 768px) 50vw, 100vw' }) }}</div>
+          <div class="chapter__body">
+            <span class="chapter__num" aria-hidden="true">0{{ loop.index }}</span>
+            <div><h3 class="chapter__title">{{ c.title }}</h3><p>{{ c.text }}</p></div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-paper">
+  <div class="container">
+    <dl class="stats border-0 pt-0">
+      {% for s in site.home.stats %}
+      <div class="stats__item reveal">
+        <dd class="stats__value">{% if s.plain %}{{ s.value }}{% else %}<span data-count="{{ s.value }}">{{ s.value }}</span>{{ s.suffix }}{% endif %}</dd>
+        <dt class="stats__label">{{ s.label }}</dt>
+      </div>
+      {% endfor %}
+    </dl>
+    <div class="row g-4 mt-5">
+      {% for c in categories %}{% if not c.parent %}
+      <div class="col-sm-6 col-lg-3 reveal">
+        <a class="d-block text-decoration-none h-100 p-4 border rounded-4 bg-white" href="{{ c.url }}">
+          <h3 class="h4 mb-2">{{ c.name }}</h3>
+          <p class="mb-3 text-secondary small">{{ c.intro }}</p>
+          <span class="fw-bold">Разгледайте <i class="bi bi-arrow-right" aria-hidden="true"></i></span>
+        </a>
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "partials/_cta.njk" %}
+{% endblock %}

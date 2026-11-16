@@ -1,0 +1,23 @@
+{# Closing "talk to us" band, reused on most pages. Optional: ctaTitle, ctaText #}
+<section class="cta-band">
+  <div class="container">
+    <div class="row align-items-end gy-4">
+      <div class="col-lg-6">
+        <h2 class="display-2 reveal">{{ ctaTitle or site.home.cta.title }}</h2>
+        <p class="lead reveal">{{ ctaText or site.home.cta.text }}</p>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+        <ul class="list-unstyled cta-band__contacts reveal">
+          {% for c in site.contacts %}
+          <li>
+            <span class="cta-band__topic">{{ c.topics }}</span>
+            <a class="cta-band__phone" href="{{ c.phoneHref }}">{{ c.phone }}</a>
+            <span class="cta-band__person">{{ c.name }} · <a href="mailto:{{ c.email }}">{{ c.email }}</a></span>
+          </li>
+          {% endfor %}
+        </ul>
+        <a class="btn btn-dark btn-lg reveal" href="/contact.html">Пишете ни <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</section>

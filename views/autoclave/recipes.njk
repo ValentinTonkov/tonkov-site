@@ -1,0 +1,61 @@
+{# Autoclave recipes  →  Yii2: views/autoclave/recipes.php (old URL /autoclave/recipes.html is kept) #}
+{% extends "layouts/main.njk" %}
+{% set metaTitle = 'Рецепти за автоклав — месо, риба, зеленчуци' %}
+{% set metaDescription = 'Изпитани рецепти за домашни консерви в автоклав — с температура и време за всяка: телешко, свинско, русенско варено, скумрия, боб, гъби, печени чушки и още.' %}
+{% set crumbs = [{ label: 'Автоклави', url: '/category/avtoklavi.html' }, { label: 'Рецепти' }] %}
+
+{% block content %}
+<div class="container">
+  <header class="page-head">
+    {% include "partials/_breadcrumbs.njk" %}
+    <h1 class="display-2">Рецепти за автоклав</h1>
+    <p class="lead">{{ recipes.recipes | length }} рецепти, изпитани в нашата кухня — с точните градуси и минути за всяка.</p>
+  </header>
+
+  <div class="note-box">
+    <i class="bi bi-lightbulb" aria-hidden="true"></i>
+    <p>{{ recipes.note }}</p>
+  </div>
+
+  <div class="recipe-tools">
+    <ul class="pills" aria-label="Категории рецепти">
+      <li><button type="button" data-recipe-filter="all" aria-pressed="true">Всички</button></li>
+      {% for c in recipes.categories %}
+      <li><button type="button" data-recipe-filter="{{ c.slug }}" aria-pressed="false">{{ c.name }}</button></li>
+      {% endfor %}
+    </ul>
+    <div class="recipe-search">
+      <i class="bi bi-search" aria-hidden="true"></i>
+      <input class="form-control" type="search" placeholder="Търсене в рецептите" aria-label="Търсене в рецептите" data-recipe-search>
+    </div>
+  </div>
+
+  <div class="recipe-list" data-recipes>
+    {% for r in recipes.recipes %}
+    <article class="recipe{% if r.images[0] %} has-image{% endif %}" id="{{ r.slug }}" data-recipe data-category="{{ r.category }}">
+      {% if r.images[0] %}
+      <button type="button" class="recipe__media border-0 p-0" data-full="/{{ r.images[0].src }}" aria-label="Увеличи снимката">
+        <img src="/{{ r.images[0].thumb }}" alt="{{ r.images[0].alt }}" width="{{ r.images[0].w }}" height="{{ r.images[0].h }}" loading="lazy" decoding="async">
+      </button>
+      {% endif %}
+      <div class="recipe__body">
+        <p class="recipe__meta">{{ r.categoryName }}</p>
+        <h2 class="recipe__title">{{ r.name }}</h2>
+        <ul class="chips" aria-label="Режим на автоклава">
+          <li><i class="bi bi-thermometer-half" aria-hidden="true"></i> {{ r.temperature }} °C</li>
+          <li><i class="bi bi-clock" aria-hidden="true"></i> {{ r.time }} мин</li>
+        </ul>
+        {% if r.method %}<p class="recipe__method">{{ r.method }}</p>{% endif %}
+        {% if r.note %}<p class="recipe__note"><strong>Забележка:</strong> {{ r.note }}</p>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <p class="recipe-empty" data-recipe-empty hidden>Няма рецепта, която да отговаря на търсенето.</p>
+
+  <div class="py-5 my-lg-4 d-flex flex-wrap gap-2">
+    <a class="btn btn-dark btn-lg" href="/product/avtoklav.html">Към автоклава <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+    <a class="btn btn-outline-dark btn-lg" href="/autoclave/guide.html">Работа с автоклава</a>
+  </div>
+</div>
+{% endblock %}

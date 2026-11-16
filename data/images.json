@@ -1,0 +1,258 @@
+{
+  "autoclave_hero": {
+    "widths": [
+      768,
+      1280,
+      1920,
+      2560
+    ],
+    "fallback": "autoclave_hero.jpg",
+    "ratio": 1.5017,
+    "w": 5202,
+    "h": 3464
+  },
+  "avtoklavi_karta_prozrachna": {
+    "widths": [
+      800,
+      1400,
+      2000
+    ],
+    "fallback": "avtoklavi_karta_prozrachna.png",
+    "ratio": 1.7773,
+    "w": 3839,
+    "h": 2160
+  },
+  "bure_5l": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "bure_5l.jpg",
+    "ratio": 1.5017,
+    "w": 5202,
+    "h": 3464
+  },
+  "gallery1": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery1.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "gallery2": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery2.jpg",
+    "ratio": 0.75,
+    "w": 3072,
+    "h": 4096
+  },
+  "gallery3": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery3.jpg",
+    "ratio": 1.4183,
+    "w": 4096,
+    "h": 2888
+  },
+  "gallery4": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery4.jpg",
+    "ratio": 0.7483,
+    "w": 3472,
+    "h": 4640
+  },
+  "gallery5": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery5.jpg",
+    "ratio": 1.3364,
+    "w": 4640,
+    "h": 3472
+  },
+  "gallery6": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "gallery6.jpg",
+    "ratio": 1.3333,
+    "w": 4000,
+    "h": 3000
+  },
+  "heart_display": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "heart_display.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "heart_display2": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "heart_display2.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "heart_display3": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "heart_display3.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "hero_section": {
+    "widths": [
+      768,
+      1280,
+      1920,
+      2560
+    ],
+    "fallback": "hero_section.jpg",
+    "ratio": 1.5017,
+    "w": 5202,
+    "h": 3464
+  },
+  "iot_hero": {
+    "widths": [
+      768,
+      1280,
+      1920,
+      2560
+    ],
+    "fallback": "iot_hero.jpg",
+    "ratio": 1.7778,
+    "w": 2560,
+    "h": 1440
+  },
+  "rotation_board1": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "rotation_board1.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "rotation_board2": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "rotation_board2.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "scale_with_beehive": {
+    "widths": [
+      640,
+      1024
+    ],
+    "fallback": "scale_with_beehive.jpg",
+    "ratio": 0.75,
+    "w": 1350,
+    "h": 1800
+  },
+  "temp_rope": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "temp_rope.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "wood_hero": {
+    "widths": [
+      768,
+      1280,
+      1920,
+      2560
+    ],
+    "fallback": "wood_hero.jpg",
+    "ratio": 1.5017,
+    "w": 5202,
+    "h": 3464
+  },
+  "wooden_products": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "wooden_products.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "working_autoclaves": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "working_autoclaves.jpg",
+    "ratio": 1.4412,
+    "w": 4096,
+    "h": 2842
+  },
+  "working_welding_autoclave": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "working_welding_autoclave.jpg",
+    "ratio": 1.3333,
+    "w": 4096,
+    "h": 3072
+  },
+  "working_wood": {
+    "widths": [
+      640,
+      1024,
+      1600
+    ],
+    "fallback": "working_wood.jpg",
+    "ratio": 1.5017,
+    "w": 5202,
+    "h": 3464
+  }
+}

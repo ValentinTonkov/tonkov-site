@@ -1,0 +1,393 @@
+[
+  {
+    "slug": "vezna-za-kosheri",
+    "name": "Везна за кошери",
+    "category": "monitoring",
+    "active": true,
+    "sku": "900.009",
+    "price": 323,
+    "priceMax": 407,
+    "priceNote": "според модела",
+    "cta": "order",
+    "summary": "Следи теглото на кошера и състоянието на пчелното семейство в реално време — без да отваряте кошера.",
+    "description": "Везната стои под кошера и измерва теглото му денонощно. Данните отиват в онлайн платформа, където виждате дневния прираст, историята и графиките за избран период — от телефона или компютъра, където и да сте.\n\n**Свързаност**\n\n- Wi-Fi мрежа\n- SIM карта на мобилен оператор\n- локален режим без интернет\n\n**Какво измерва**\n\nСтандартно — теглото на кошера и напрежението на батерията. По избор се добавят:\n\n- температура в кошера\n- температура, влажност и атмосферно налягане на въздуха\n\n**Измервания и история**\n\nИзмерване на всеки 68 минути. Данните се пазят 12 месеца.\n\n**Захранване**\n\nАвтономно — презареждаема батерия и соларен панел.",
+    "features": [
+      "Тегло на кошера в реално време",
+      "Wi-Fi, SIM карта или локален режим без интернет",
+      "Онлайн платформа: дневен прираст, история и графики",
+      "Измерване на всеки 68 минути, данните се пазят 12 месеца",
+      "По избор: температура в кошера, температура, влажност и налягане на въздуха",
+      "Автономно захранване — батерия и соларен панел"
+    ],
+    "specs": [],
+    "variants": [
+      {
+        "name": "BHS_WiFi",
+        "group": "WiFi",
+        "params": [
+          "тегло",
+          "напрежение захранване"
+        ],
+        "price": 323
+      },
+      {
+        "name": "BHS_WiFi_ds",
+        "group": "WiFi",
+        "params": [
+          "тегло",
+          "кошерна температура",
+          "напрежение захранване"
+        ],
+        "price": 340
+      },
+      {
+        "name": "BHSB_WiFi",
+        "group": "WiFi",
+        "params": [
+          "тегло",
+          "атмосферна температура, влажност и налягане",
+          "напрежение захранване"
+        ],
+        "price": 367
+      },
+      {
+        "name": "BHSB_WiFi_ds",
+        "group": "WiFi",
+        "params": [
+          "тегло",
+          "кошерна температура",
+          "атмосферна температура, влажност и налягане",
+          "напрежение захранване"
+        ],
+        "price": 384
+      },
+      {
+        "name": "BHS_GSM",
+        "group": "СИМ карта",
+        "params": [
+          "тегло",
+          "напрежение захранване"
+        ],
+        "price": 356
+      },
+      {
+        "name": "BHS_GSM_ds",
+        "group": "СИМ карта",
+        "params": [
+          "тегло",
+          "кошерна температура",
+          "напрежение захранване"
+        ],
+        "price": 372
+      },
+      {
+        "name": "BHSB_GSM",
+        "group": "СИМ карта",
+        "params": [
+          "тегло",
+          "атмосферна температура, влажност и налягане",
+          "напрежение захранване"
+        ],
+        "price": 390
+      },
+      {
+        "name": "BHSB_GSM_ds",
+        "group": "СИМ карта",
+        "params": [
+          "тегло",
+          "кошерна температура",
+          "атмосферна температура, влажност и налягане",
+          "напрежение захранване"
+        ],
+        "price": 407
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/vezna-za-kosheri-1.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/vezna-za-kosheri-1-t.webp",
+        "alt": "Кошер върху везна със соларен панел в пчелина"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-2.webp",
+        "w": 1200,
+        "h": 898,
+        "thumb": "img/products/vezna-za-kosheri-2-t.webp",
+        "alt": "Рамата на везната за кошери"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-3.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/vezna-za-kosheri-3-t.webp",
+        "alt": "Везната отгоре — рамата и кутията с електрониката"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-4.webp",
+        "w": 1024,
+        "h": 766,
+        "thumb": "img/products/vezna-za-kosheri-4-t.webp",
+        "alt": "Везна за кошери — изглед отгоре"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-5.webp",
+        "w": 1024,
+        "h": 766,
+        "thumb": "img/products/vezna-za-kosheri-5-t.webp",
+        "alt": "Везна за кошери — изглед отстрани"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-6.webp",
+        "w": 768,
+        "h": 1026,
+        "thumb": "img/products/vezna-za-kosheri-6-t.webp",
+        "alt": "Везни, подготвени за изпращане"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-7.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/vezna-za-kosheri-7-t.webp",
+        "alt": "Кошери върху везни в пчелина"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-8.webp",
+        "w": 1124,
+        "h": 374,
+        "thumb": "img/products/vezna-za-kosheri-8-t.webp",
+        "alt": "Графика на теглото на кошера в платформата"
+      },
+      {
+        "src": "img/products/vezna-za-kosheri-9.webp",
+        "w": 584,
+        "h": 929,
+        "thumb": "img/products/vezna-za-kosheri-9-t.webp",
+        "alt": "Екран от платформата с последните данни за два кошера"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "demo": true,
+    "oldUrl": "https://iot.tonkov.eu/product/vezna-za-kosheri.html"
+  },
+  {
+    "slug": "termovazhe-za-zarno",
+    "name": "Термовъже за зърно",
+    "category": "monitoring",
+    "active": true,
+    "isNew": true,
+    "sku": null,
+    "price": 450,
+    "cta": "order",
+    "summary": "Следи температурата на зърното в дълбочина и ви предупреждава, преди да е започнало да се загрява.",
+    "description": "Загряването е първият признак, че в зърното има влага, вредители или започва самозагряване. Термовъжето се спуска в насипа и измерва температурата с датчици, разположени по дължината му — така виждате какво става в дълбочина, а не само на повърхността.\n\nДанните се изпращат автоматично към онлайн платформа. Там следите графиките за всеки датчик и задавате граници — при излизане от тях получавате известие по имейл.",
+    "features": [
+      "Температурни датчици по дължината на въжето — измерване на различни дълбочини",
+      "Данните се изпращат автоматично към онлайн платформа",
+      "Графики и история на измерванията",
+      "Известие по имейл при температура извън зададените граници"
+    ],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/termovazhe-za-zarno-1.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/termovazhe-za-zarno-1-t.webp",
+        "alt": "Термовъже за зърно TR_D2 — въже с датчици и две кутии с електрониката"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "demo": true,
+    "demoUrl": "https://grainstore.tonkov.eu",
+    "oldUrl": null
+  },
+  {
+    "slug": "termosonda-za-zarno",
+    "name": "Термосонда за зърно",
+    "category": "monitoring",
+    "active": true,
+    "sku": "900.004",
+    "price": 153,
+    "cta": "order",
+    "summary": "Автономна сонда с два температурни датчика — на 2 м и на 0,5 м дълбочина в зърното.",
+    "description": "Сондата се забива в насипа и измерва температурата на зърното на две дълбочини — 2 м и 0,5 м. Работи напълно автономно с четири батерии тип АА, без никакви кабели.\n\nЛимитите и условията се задават лесно и според вашите изисквания. Когато някоя стойност излезе извън тях, получавате известие по имейл. Следят се и самото изпращане на данните и състоянието на батерията.\n\n**По избор**\n\n- предпазител за антената (може да си го направите и сами)\n- карта на разположението на сондите\n- запис на данните за период над 30 дни и експорт",
+    "features": [
+      "Два температурни датчика — на 2 м и на 0,5 м",
+      "Корпус от неръждаема стомана",
+      "4 батерии АА, без кабели — напълно автономна",
+      "Известие по имейл при стойности извън зададените лимити",
+      "Следене на изпращането на данни и на батерията",
+      "Запис на последните 30 дни"
+    ],
+    "specs": [
+      {
+        "label": "Размер",
+        "value": "2000 × 10 × 10 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "1 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/termosonda-za-zarno-1.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/termosonda-za-zarno-1-t.webp",
+        "alt": "Термосонда за зърно"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-2.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/termosonda-za-zarno-2-t.webp",
+        "alt": "Термосонда за зърно — снимка 2"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-3.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/termosonda-za-zarno-3-t.webp",
+        "alt": "Термосонда за зърно — снимка 3"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-4.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/termosonda-za-zarno-4-t.webp",
+        "alt": "Термосонда за зърно — снимка 4"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-5.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/termosonda-za-zarno-5-t.webp",
+        "alt": "Термосонда за зърно — снимка 5"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-6.webp",
+        "w": 1180,
+        "h": 735,
+        "thumb": "img/products/termosonda-za-zarno-6-t.webp",
+        "alt": "Термосонда за зърно — снимка 6"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-7.webp",
+        "w": 1161,
+        "h": 760,
+        "thumb": "img/products/termosonda-za-zarno-7-t.webp",
+        "alt": "Термосонда за зърно — снимка 7"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-8.webp",
+        "w": 1200,
+        "h": 689,
+        "thumb": "img/products/termosonda-za-zarno-8-t.webp",
+        "alt": "Термосонда за зърно — снимка 8"
+      },
+      {
+        "src": "img/products/termosonda-za-zarno-9.webp",
+        "w": 1200,
+        "h": 718,
+        "thumb": "img/products/termosonda-za-zarno-9-t.webp",
+        "alt": "Термосонда за зърно — снимка 9"
+      }
+    ],
+    "videos": [
+      {
+        "id": "2dlDXKwGlBc",
+        "title": "Термосондата в детайли"
+      }
+    ],
+    "documents": [],
+    "oldUrl": "https://iot.tonkov.eu/product/termo-sonda-zyrno.html"
+  },
+  {
+    "slug": "solarna-stantsia-sswfi",
+    "name": "Соларна станция Wi-Fi SSWFI",
+    "category": "monitoring",
+    "active": true,
+    "sku": "900.019",
+    "price": null,
+    "priceNote": "според конфигурацията",
+    "cta": "inquiry",
+    "summary": "Осигурява Wi-Fi мрежа и интернет там, където няма ток — за пчелин, склад или отдалечен обект.",
+    "description": "Соларна станция за поддръжка на Wi-Fi мрежа и достъп до интернет на места без електрозахранване. Подходяща е за пчелини, складове и други отдалечени обекти, където работят нашите везни и датчици.\n\nКонфигурацията и цената се уточняват според обекта.",
+    "features": [
+      "Соларен панел 100 W и акумулатор",
+      "Рутер за карта за данни (картата не влиза в комплекта)",
+      "Контролер за съвместната работа на устройствата",
+      "Табло със степен на защита IP67",
+      "Лека оразмерена метална конструкция, боядисана с „Протекта“"
+    ],
+    "specs": [
+      {
+        "label": "Размер",
+        "value": "1500 × 500 × 500 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "20 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/solarna-stantsia-sswfi-1.webp",
+        "w": 675,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-1-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-2.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-2-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 2"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-3.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-3-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 3"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-4.webp",
+        "w": 898,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-4-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 4"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-5.webp",
+        "w": 898,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-5-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 5"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-6.webp",
+        "w": 898,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-6-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 6"
+      },
+      {
+        "src": "img/products/solarna-stantsia-sswfi-7.webp",
+        "w": 898,
+        "h": 1200,
+        "thumb": "img/products/solarna-stantsia-sswfi-7-t.webp",
+        "alt": "Соларна станция Wi-Fi SSWFI — снимка 7"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://iot.tonkov.eu/product/solarna-WIFI--stanciq.html"
+  }
+]

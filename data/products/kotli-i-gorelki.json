@@ -1,0 +1,669 @@
+[
+  {
+    "slug": "pakt-la-960",
+    "name": "PAKT LA 960",
+    "category": "kotli-i-gorelki",
+    "group": "Котли",
+    "active": true,
+    "sku": "600.006",
+    "price": 1840,
+    "cta": "order",
+    "summary": "Пелетен агрегатен котел с горелка ABTEDGEU90 и бункер, монтиран върху котела.",
+    "description": "Пелетен агрегатен котел с хоризонтална тунелно-тръбна конструкция и бункер за пелети, монтиран върху самия котел. Лесен е за почистване и елементарен за обслужване.\n\nВсеки котел се изпитва на 4,5 атм. и минава тестово палене със загряване на предварително измерен обем вода — със запис за конкретния котел.",
+    "features": [
+      "Горелка ABTEDGEU90",
+      "Комбинирана хоризонтална тунелно-тръбна конструкция",
+      "18 тръби 2\" с дължина 960 мм",
+      "Бункер за пелети, монтиран върху котела",
+      "Заварки с добър провар и завършек",
+      "Изпитан на 4,5 атм.",
+      "Максимално уплътнен горивен път"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3, 3 мм"
+      },
+      {
+        "label": "Размер",
+        "value": "1600 × 600 × 1500 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "260 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/pakt-la-960-1.webp",
+        "w": 759,
+        "h": 646,
+        "thumb": "img/products/pakt-la-960-1-t.webp",
+        "alt": "PAKT LA 960"
+      }
+    ],
+    "videos": [
+      {
+        "id": "TYtI7K_4a1E",
+        "title": "PAKT LA 960 — видео 1"
+      },
+      {
+        "id": "TOVXqbofOkw",
+        "title": "PAKT LA 960 — видео 2"
+      },
+      {
+        "id": "U5-NN5yF1iQ",
+        "title": "PAKT LA 960 — видео 3"
+      },
+      {
+        "id": "20V21GdPC48",
+        "title": "PAKT LA 960 — видео 4"
+      },
+      {
+        "id": "CJZUouKyITg",
+        "title": "PAKT LA 960 — видео 5"
+      },
+      {
+        "id": "zxkiJWl9QjA",
+        "title": "PAKT LA 960 — видео 6"
+      }
+    ],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/peleten-kotel-2.html"
+  },
+  {
+    "slug": "gorelka-peletna-3",
+    "name": "Горелка ABTEDGEU90 — двушнекова, оборудвана",
+    "category": "kotli-i-gorelki",
+    "group": "Горелки",
+    "active": true,
+    "sku": "600.003",
+    "price": 894,
+    "cta": "order",
+    "summary": "Напълно окомплектована двушнекова горелка с контролер „Натурела“ и Wi-Fi — готова за работа.",
+    "description": "Напълно окомплектовано съоръжение, готово за експлоатация. Горелката е с два шнека — подаващ и вътрешен — и се управлява от контролер „Натурела“ с Wi-Fi.\n\nПали сама и поддържа зададената температура, работи с почти всякакви пелети и може да се вгради в различни котли, инсталации и съоръжения. Компонентите се предлагат свободно на българския пазар, а поддръжката е елементарна.",
+    "features": [
+      "Два шнека — подаващ и вътрешен",
+      "Контролер „Натурела“ с Wi-Fi",
+      "Самостоятелно палене и поддържане на зададена температура",
+      "Непрекъснат режим или таймери",
+      "4 степени на модулация",
+      "Известяване за грешки и аварии",
+      "Датчик за защита от обратно горене",
+      "Датчик за температурата на изгорелите газове",
+      "Статистика за разхода на пелети"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3, 2 мм"
+      },
+      {
+        "label": "Размер",
+        "value": "300 × 300 × 1500 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "25 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gorelka-peletna-3-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-1-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана"
+      },
+      {
+        "src": "img/products/gorelka-peletna-3-2.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-2-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана — снимка 2"
+      },
+      {
+        "src": "img/products/gorelka-peletna-3-3.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-3-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана — снимка 3"
+      },
+      {
+        "src": "img/products/gorelka-peletna-3-4.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-4-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана — снимка 4"
+      },
+      {
+        "src": "img/products/gorelka-peletna-3-5.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-5-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана — снимка 5"
+      },
+      {
+        "src": "img/products/gorelka-peletna-3-6.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-3-6-t.webp",
+        "alt": "Горелка ABTEDGEU90 — двушнекова, оборудвана — снимка 6"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/gorelka-peletna-3.html"
+  },
+  {
+    "slug": "gorelka-peletna-4",
+    "name": "Горелка едношнекова, оборудвана",
+    "category": "kotli-i-gorelki",
+    "group": "Горелки",
+    "active": true,
+    "sku": "600.004",
+    "price": 342,
+    "cta": "order",
+    "summary": "Едношнекова горелка с всичко необходимо за устойчиво горене. Управлява се през уеб браузър.",
+    "description": "Горелка с минимално необходимото за устойчиво горене: един шнек, моторедуктор „Мелор“ и вентилатор ebm-papst (при много добра тяга на инсталацията вентилаторът може да отпадне).\n\nПараметрите се задават през уеб браузър по Wi-Fi — на място може и през hotspot от мобилен телефон. Цикълът стартира автоматично след включване и не изисква връзка с мрежа, а последните настройки се запазват.\n\nПодходяща е за котли, печки, казани и други съоръжения. Менюто и алгоритмите на управление могат да се персонализират — например модулация на мощността според измерена температура.",
+    "features": [
+      "Един шнек, моторедуктор „Мелор“",
+      "Вентилатор ebm-papst",
+      "Управление през уеб браузър по Wi-Fi или hotspot",
+      "Работи без връзка с мрежа след настройването",
+      "Запомня последните настройки",
+      "Възможност за персонализирани алгоритми на управление"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3"
+      },
+      {
+        "label": "Размер",
+        "value": "600 × 600 × 200 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "7 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gorelka-peletna-4-1.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-4-1-t.webp",
+        "alt": "Горелка едношнекова, оборудвана"
+      },
+      {
+        "src": "img/products/gorelka-peletna-4-2.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-4-2-t.webp",
+        "alt": "Горелка едношнекова, оборудвана — снимка 2"
+      },
+      {
+        "src": "img/products/gorelka-peletna-4-3.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-4-3-t.webp",
+        "alt": "Горелка едношнекова, оборудвана — снимка 3"
+      },
+      {
+        "src": "img/products/gorelka-peletna-4-4.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-4-4-t.webp",
+        "alt": "Горелка едношнекова, оборудвана — снимка 4"
+      },
+      {
+        "src": "img/products/gorelka-peletna-4-5.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-4-5-t.webp",
+        "alt": "Горелка едношнекова, оборудвана — снимка 5"
+      }
+    ],
+    "videos": [
+      {
+        "id": "vNPEl1wM0SA",
+        "title": "Горелка едношнекова оборудвана"
+      }
+    ],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/gorelka-peletna-4.html"
+  },
+  {
+    "slug": "gorelka-peletna-1",
+    "name": "Горелка необорудвана, с кутия",
+    "category": "kotli-i-gorelki",
+    "group": "Горелки",
+    "active": true,
+    "sku": "600.001",
+    "price": 107,
+    "cta": "order",
+    "summary": "Необорудвана горелка ABT9EDGEU90 с кутия — базово тяло за собствена окомплектовка.",
+    "description": "Необорудвана пелетна горелка ABT9EDGEU90 — базово тяло, на което да монтирате механизми и компоненти, с които разполагате или които ще закупите отделно.\n\nВключва корпус, скара и предпазители за вентилатора и моторедуктора. Не включва шнек, датчици, моторедуктори и вентилатор.",
+    "features": [
+      "Присъединителни отвори за моторедуктори „Мелор“ или 60KTYZ",
+      "Основна тръба 2\" за шнекова спирала 36,5 × 40 × 20 – 8 × 3,3 мм",
+      "Накрайник 2\" за вентилатор ebm-papst RLG97, 38 W",
+      "Тръба 2\" за вход на пелетите",
+      "Места за запалка FKK PSx-2-240B, фотосензор Siemens QHB1 и датчик за обратно горене",
+      "Покритие — термоустойчива боя до 800 °C"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3, 2 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "8 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gorelka-peletna-1-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-1-1-t.webp",
+        "alt": "Горелка необорудвана, с кутия"
+      },
+      {
+        "src": "img/products/gorelka-peletna-1-2.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-1-2-t.webp",
+        "alt": "Горелка необорудвана, с кутия — снимка 2"
+      },
+      {
+        "src": "img/products/gorelka-peletna-1-3.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-1-3-t.webp",
+        "alt": "Горелка необорудвана, с кутия — снимка 3"
+      },
+      {
+        "src": "img/products/gorelka-peletna-1-4.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-1-4-t.webp",
+        "alt": "Горелка необорудвана, с кутия — снимка 4"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/gorelka-peletna-1.html"
+  },
+  {
+    "slug": "gorelka-peletna-2",
+    "name": "Горелка едношнекова директна, необорудвана",
+    "category": "kotli-i-gorelki",
+    "group": "Горелки",
+    "active": true,
+    "sku": "600.002",
+    "price": 92,
+    "cta": "order",
+    "summary": "Необорудвана едношнекова директна горелка — корпус, скара и кош за пелети.",
+    "description": "Конфигурация с минимален брой механизми, която позволява устойчиво и продължително горене — на базата на ABT9EDGEU90. Базово тяло, на което да монтирате налични или избрани от вас механизми и компоненти.\n\nВключва корпус, скара и кош за пелети. Не включва шнек, датчици, моторедуктори и вентилатор.",
+    "features": [
+      "Присъединителни отвори за моторедуктори „Мелор“ или 60KTYZ",
+      "Основна тръба 2\" за шнекова спирала 36,5 × 40 × 20 – 8 × 3,3 мм",
+      "Накрайник 2\" за вентилатор",
+      "Места за запалка FKK PSx-2-240B, фотодатчик и датчик за обратно горене",
+      "Покритие — термоустойчива боя до 800 °C"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3, 2 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "7 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gorelka-peletna-2-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-2-1-t.webp",
+        "alt": "Горелка едношнекова директна, необорудвана"
+      },
+      {
+        "src": "img/products/gorelka-peletna-2-2.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-2-2-t.webp",
+        "alt": "Горелка едношнекова директна, необорудвана — снимка 2"
+      },
+      {
+        "src": "img/products/gorelka-peletna-2-3.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-2-3-t.webp",
+        "alt": "Горелка едношнекова директна, необорудвана — снимка 3"
+      },
+      {
+        "src": "img/products/gorelka-peletna-2-4.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-2-4-t.webp",
+        "alt": "Горелка едношнекова директна, необорудвана — снимка 4"
+      },
+      {
+        "src": "img/products/gorelka-peletna-2-5.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/gorelka-peletna-2-5-t.webp",
+        "alt": "Горелка едношнекова директна, необорудвана — снимка 5"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/gorelka-peletna-2.html"
+  },
+  {
+    "slug": "gorelka-peletna-5",
+    "name": "Базова глава за горелка",
+    "category": "kotli-i-gorelki",
+    "group": "Горелки",
+    "active": true,
+    "sku": "600.009",
+    "price": 71,
+    "cta": "order",
+    "summary": "Базова глава за горелка — минималната геометрия, върху която да изградите своя.",
+    "description": "Основна развойна компоновка с минимално необходимата геометрия и елементи — без нищо излишно. Оставя ви пълна свобода в избора на механизми и захранване, а „консумативите“ са елементарни и евтини.",
+    "features": [
+      "Подвързване на различни вентилатори",
+      "Подвързване на различни моторедуктори",
+      "Монтажни места за запалка, датчик за осветеност и датчик за обратно горене"
+    ],
+    "specs": [
+      {
+        "label": "Материал",
+        "value": "стомана Ст3, 3 мм"
+      },
+      {
+        "label": "Размер",
+        "value": "300 × 300 × 300 мм"
+      },
+      {
+        "label": "Тегло",
+        "value": "4 кг"
+      }
+    ],
+    "images": [
+      {
+        "src": "img/products/gorelka-peletna-5-1.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/gorelka-peletna-5-1-t.webp",
+        "alt": "Базова глава за горелка"
+      },
+      {
+        "src": "img/products/gorelka-peletna-5-2.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/gorelka-peletna-5-2-t.webp",
+        "alt": "Базова глава за горелка — снимка 2"
+      },
+      {
+        "src": "img/products/gorelka-peletna-5-3.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/gorelka-peletna-5-3-t.webp",
+        "alt": "Базова глава за горелка — снимка 3"
+      },
+      {
+        "src": "img/products/gorelka-peletna-5-4.webp",
+        "w": 1200,
+        "h": 900,
+        "thumb": "img/products/gorelka-peletna-5-4-t.webp",
+        "alt": "Базова глава за горелка — снимка 4"
+      },
+      {
+        "src": "img/products/gorelka-peletna-5-5.webp",
+        "w": 900,
+        "h": 1200,
+        "thumb": "img/products/gorelka-peletna-5-5-t.webp",
+        "alt": "Базова глава за горелка — снимка 5"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/gorelka-peletna-5.html"
+  },
+  {
+    "slug": "kontroler-peletna-gorelka-2-shneka",
+    "name": "Контролер за пелетна горелка — два шнека",
+    "category": "kotli-i-gorelki",
+    "group": "Контролери",
+    "active": true,
+    "sku": "900.007",
+    "price": 92,
+    "cta": "order",
+    "summary": "Управлява два шнека и вентилатор и превключва между две мощности според температурата на котела.",
+    "description": "Контролер за управление на два шнека (вкл./изкл.) и вентилатор (регулиране на оборотите). Термодатчик следи температурата на котела и превключва между два режима — две мощности.\n\nНастройва се през уеб браузър — от смартфон, лаптоп или компютър. Wi-Fi или hotspot са нужни само за конфигурирането; след това контролерът работи и офлайн. При необходимост добавяме и други функции.",
+    "features": [
+      "Два шнека (вкл./изкл.) и вентилатор с регулиране на оборотите",
+      "Термодатчик и два режима на мощност",
+      "Настройка през уеб браузър",
+      "Работи офлайн след конфигурирането",
+      "По избор: интегриране с логер за котел"
+    ],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/kontroler-peletna-gorelka-2-shneka-1.webp",
+        "w": 675,
+        "h": 1200,
+        "thumb": "img/products/kontroler-peletna-gorelka-2-shneka-1-t.webp",
+        "alt": "Контролер за пелетна горелка — два шнека"
+      },
+      {
+        "src": "img/products/kontroler-peletna-gorelka-2-shneka-2.webp",
+        "w": 675,
+        "h": 1200,
+        "thumb": "img/products/kontroler-peletna-gorelka-2-shneka-2-t.webp",
+        "alt": "Контролер за пелетна горелка — два шнека — снимка 2"
+      },
+      {
+        "src": "img/products/kontroler-peletna-gorelka-2-shneka-3.webp",
+        "w": 675,
+        "h": 1200,
+        "thumb": "img/products/kontroler-peletna-gorelka-2-shneka-3-t.webp",
+        "alt": "Контролер за пелетна горелка — два шнека — снимка 3"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://iot.tonkov.eu/product/kontroler-peletni-2.html"
+  },
+  {
+    "slug": "kontroler-peletna-gorelka-1-shnek",
+    "name": "Контролер за пелетна горелка — един шнек",
+    "category": "kotli-i-gorelki",
+    "group": "Контролери",
+    "active": true,
+    "sku": "900.008",
+    "price": 71,
+    "cta": "order",
+    "summary": "Управлява шнека и вентилатора на горелката. Настройва се през уеб браузър.",
+    "description": "Контролер за управление на шнек (вкл./изкл.) и вентилатор (регулиране на оборотите).\n\nНастройва се през уеб браузър — от смартфон, лаптоп или компютър. Wi-Fi или hotspot са нужни само за конфигурирането; след това контролерът работи и офлайн. При необходимост добавяме и други функции.",
+    "features": [
+      "Шнек (вкл./изкл.) и вентилатор с регулиране на оборотите",
+      "Настройка през уеб браузър",
+      "Работи офлайн след конфигурирането"
+    ],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/kontroler-peletna-gorelka-1-shnek-1.webp",
+        "w": 336,
+        "h": 524,
+        "thumb": "img/products/kontroler-peletna-gorelka-1-shnek-1-t.webp",
+        "alt": "Контролер за пелетна горелка — един шнек"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://iot.tonkov.eu/product/kontroler-peletna-1.html"
+  },
+  {
+    "slug": "chetka",
+    "name": "Четка за котел",
+    "category": "kotli-i-gorelki",
+    "group": "Аксесоари",
+    "active": true,
+    "sku": "600.008",
+    "price": null,
+    "cta": "inquiry",
+    "summary": "Четка за почистване на котела.",
+    "description": "Четка за почистване на тръбите на котела.",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/chetka-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/chetka-1-t.webp",
+        "alt": "Четка за котел"
+      },
+      {
+        "src": "img/products/chetka-2.webp",
+        "w": 768,
+        "h": 1024,
+        "thumb": "img/products/chetka-2-t.webp",
+        "alt": "Четка за котел — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/chetka.html"
+  },
+  {
+    "slug": "lopatka",
+    "name": "Лопатка с дълга дръжка",
+    "category": "kotli-i-gorelki",
+    "group": "Аксесоари",
+    "active": true,
+    "sku": "600.007",
+    "price": null,
+    "cta": "inquiry",
+    "summary": "Лопатка за изриване на пепелта.",
+    "description": "Лопатка с дълга дръжка за изриване на пепелта от котела.",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/lopatka-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/lopatka-1-t.webp",
+        "alt": "Лопатка с дълга дръжка"
+      },
+      {
+        "src": "img/products/lopatka-2.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/lopatka-2-t.webp",
+        "alt": "Лопатка с дълга дръжка — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/lopatka.html"
+  },
+  {
+    "slug": "lopatka-2",
+    "name": "Лопатка за пелети",
+    "category": "kotli-i-gorelki",
+    "group": "Аксесоари",
+    "active": true,
+    "sku": "600.010",
+    "price": null,
+    "cta": "inquiry",
+    "summary": "Лопатка за зареждане с пелети.",
+    "description": "Лопатка за загребване и зареждане на пелети.",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/lopatka-2-1.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/lopatka-2-1-t.webp",
+        "alt": "Лопатка за пелети"
+      },
+      {
+        "src": "img/products/lopatka-2-2.webp",
+        "w": 1024,
+        "h": 768,
+        "thumb": "img/products/lopatka-2-2-t.webp",
+        "alt": "Лопатка за пелети — снимка 2"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/lopatka2.html"
+  },
+  {
+    "slug": "montazh",
+    "name": "Подвързване и първоначални настройки",
+    "category": "kotli-i-gorelki",
+    "group": "Услуги",
+    "active": true,
+    "sku": "600.011",
+    "price": 25.57,
+    "priceNote": "за 4 часа работа; пътни — 0,15 € на изминат км",
+    "cta": "inquiry",
+    "summary": "Свързване на котела или горелката с Wi-Fi, настройка на горенето и обучение на място.",
+    "description": "**Цената включва**\n\n- свързване на котела или горелката с Wi-Fi мрежа или hotspot на място\n- обучение за конкретното устройство\n- оптимизиране на горивния процес\n- електрическо свързване към захранващата мрежа (кабелите и консумативите са за ваша сметка)\n\nОбучението и свързването при нас са безплатни — в рамките на разумна продължителност и след предварителна уговорка.\n\n**Не включва**\n\n- свързване на тръби, инсталация или котела към нея\n- изолация на котела или тръбите\n- позициониране и монтаж на котела на работното му място\n- пълнене и обезвъздушаване на системата\n- свързване към комин или друг димоотвод",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/montazh-1.webp",
+        "w": 200,
+        "h": 200,
+        "thumb": "img/products/montazh-1-t.webp",
+        "alt": "Подвързване и първоначални настройки"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/montaj.html"
+  },
+  {
+    "slug": "servis",
+    "name": "Обслужване и ремонт на котли и горелки",
+    "category": "kotli-i-gorelki",
+    "group": "Услуги",
+    "active": true,
+    "sku": "600.012",
+    "price": 12.78,
+    "priceNote": "на час; пътни — 0,15 € на изминат км",
+    "cta": "inquiry",
+    "summary": "Обслужване и ремонт на място — на час.",
+    "description": "Обслужване и ремонт на пелетни котли и горелки на място, след предварителна уговорка.",
+    "features": [],
+    "specs": [],
+    "images": [
+      {
+        "src": "img/products/servis-1.webp",
+        "w": 200,
+        "h": 200,
+        "thumb": "img/products/servis-1-t.webp",
+        "alt": "Обслужване и ремонт на котли и горелки"
+      }
+    ],
+    "videos": [],
+    "documents": [],
+    "oldUrl": "https://gorelki.tonkov.eu/product/servis.html"
+  }
+]
